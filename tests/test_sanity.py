@@ -34,6 +34,20 @@ def test_bootstrap_and_holm():
     assert rej[0] and not rej[2]
 
 
+def test_risk_engine_veto_beats_score():
+    from rqaf.validators import risk_engine
+    r = risk_engine({"c1": "Supported"}, [], [], [], [{"pattern": "x", "match": "x"}],
+                    {"low": 40, "moderate": 70})
+    assert r["disposition"] == "reject" and r["veto"]
+
+
+def test_injection_gold_disposition():
+    from rqaf.inject_errors import gold_disposition
+    assert gold_disposition([]) == "approve"
+    assert gold_disposition([{"type": "hallucinated_claim"}]) == "review"
+    assert gold_disposition([{"type": "privacy_leak"}]) == "reject"
+
+
 def test_audit_catches_blocklist(tmp_path, monkeypatch):
     # Inject a synthetic term so the test proves the detector fires without naming a real term.
     import hashlib

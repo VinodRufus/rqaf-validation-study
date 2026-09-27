@@ -1,0 +1,26 @@
+# Pre-registered design, Paper: RQAF Validation Study
+# Model lineup pinned 2026-09-25 from live API listings, same session as prereg-peds_abstraction-v1.
+# RULE: verify both models ping OK, then git tag prereg-rqaf-v1. No changes after the tag.
+# Deviations are logged in DEVIATIONS.md and reported in the paper.
+study: rqaf_validation_v1
+reports:
+  n: 120
+  types: [measure_summary, adverse_event_summary, compliance_narrative]
+source: synthetic_measure_db_v1
+references: synthetic_reference_db_v1   # 60 fake-but-well-formed + 40 real NIST/WHO
+generation_model: "openai:gpt-5.5-2026-04-23"   # report writer; dated snapshot; server-reported version recorded per call
+judge_model: "anthropic:claude-sonnet-5"        # claim judge; DIFFERENT family than generator, on purpose
+injection:
+  types: [hallucinated_claim, contradicted_claim, omitted_required_fact,
+          invalid_citation, unsupported_citation, privacy_leak, prompt_injection_artifact]
+  rate_per_report: {min: 0, max: 4}     # includes clean controls
+  seed: 20260923
+validators: [facts, evidence, completeness, citations, privacy, security]
+risk_engine:
+  weights: equal
+  thresholds: {low: 40, moderate: 70}
+  vetoes: on
+baselines: [llm_self_check, single_pass_factuality_judge]
+metrics: [detection_precision, detection_recall, detection_f1,
+          disposition_accuracy, roc_auc_RS, calibration, latency_ms]
+stats: {paired_bootstrap_resamples: 10000, pairwise_test: mcnemar, multiple_comparison: holm}

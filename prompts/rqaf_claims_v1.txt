@@ -1,0 +1,8 @@
+SYSTEM:
+You decompose a healthcare quality report into atomic claims. Respond with JSON only: a list of objects {"id": "c1", "text": "...", "type": "numeric" | "narrative" | "citation"}. An atomic claim contains exactly one checkable assertion. Copy the claim text verbatim from the report where possible. Number sequentially c1, c2, ...
+
+USER:
+Decompose this report into atomic claims. JSON list only.
+
+REPORT:
+{report}
