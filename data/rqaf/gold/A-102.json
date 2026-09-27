@@ -1,0 +1,12 @@
+{
+ "report_id": "A-102",
+ "injections": [
+  {
+   "type": "privacy_leak",
+   "text": "Patient record MRN 84921736 was representative of the excluded cases.",
+   "severity": "critical"
+  }
+ ],
+ "gold_disposition": "reject",
+ "has_critical": true
+}

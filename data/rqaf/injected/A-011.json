@@ -1,0 +1,90 @@
+{
+ "report_id": "A-011",
+ "type": "adverse_event_summary",
+ "text": "This adverse event summary is based on the structured quality records for the period listed as 2026-Q1.\n\nFor measure CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d the reported unit is per 1,000 line-days. The numerator is 69, the denominator is 887, and exclusions are 37. The reported rate is 74.12 per 1,000 line-days. The event_dates field lists 2026-01-26, 2026-04-14, 2026-06-26, 2026-08-07, and 2026-11-02.\n\nFor measure SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the reported unit is percent. The numerator is 115, the denominator is 535, and exclusions are 41. The reported rate is 23.28 percent. The event_dates field lists 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19.\n\nFor measure HAPI-02, \u201cHospital-acquired pressure injury rate,\u201d the reported unit is percent. The numerator is 225, the denominator is 1274, and exclusions are 32. The reported rate is 18.12 percent. The event_dates field lists 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07.\n\nAcross the submitted records, the measures address central line-associated bloodstream infection, sepsis bundle compliance within 3 hours, and hospital-acquired pressure injury. Each record includes a numerator, denominator, exclusions, rate, unit, period, and event_dates field. No additional stratification, patient-level detail, location, severity, harm category, preventability assessment, or corrective action information is included in the supplied records.",
+ "source": [
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q1",
+   "numerator": 63,
+   "denominator": 887,
+   "exclusions": 37,
+   "rate": 74.12,
+   "event_dates": [
+    "2026-01-26",
+    "2026-04-14",
+    "2026-06-26",
+    "2026-08-07",
+    "2026-11-02"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 115,
+   "denominator": 535,
+   "exclusions": 41,
+   "rate": 23.28,
+   "event_dates": [
+    "2026-02-14",
+    "2026-04-08",
+    "2026-08-18",
+    "2026-09-28",
+    "2026-10-19"
+   ]
+  },
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 225,
+   "denominator": 1274,
+   "exclusions": 32,
+   "rate": 18.12,
+   "event_dates": [
+    "2026-01-19",
+    "2026-05-17",
+    "2026-05-19",
+    "2026-06-27",
+    "2026-12-07"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F50",
+   "is_real": false,
+   "citation": "T. Lindqvist et al., \"Sepsis surveillance: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 4, pp. 189-816, 2025, doi: 10.9999/synth.924556.",
+   "topic": "readmission prediction"
+  },
+  {
+   "ref_id": "F7",
+   "is_real": false,
+   "citation": "T. Lindqvist et al., \"Clinical audit sampling: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 22, pp. 112-872, 2024, doi: 10.9999/synth.531746.",
+   "topic": "infection control dashboards"
+  },
+  {
+   "ref_id": "R6",
+   "is_real": true,
+   "citation": "NIST CSWP 29, The NIST Cybersecurity Framework (CSF) 2.0, 2024.",
+   "topic": "cybersecurity framework"
+  }
+ ],
+ "gen_meta": {
+  "text": "This adverse event summary is based on the structured quality records for the period listed as 2026-Q1.\n\nFor measure CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d the reported unit is per 1,000 line-days. The numerator is 63, the denominator is 887, and exclusions are 37. The reported rate is 74.12 per 1,000 line-days. The event_dates field lists 2026-01-26, 2026-04-14, 2026-06-26, 2026-08-07, and 2026-11-02.\n\nFor measure SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the reported unit is percent. The numerator is 115, the denominator is 535, and exclusions are 41. The reported rate is 23.28 percent. The event_dates field lists 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19.\n\nFor measure HAPI-02, \u201cHospital-acquired pressure injury rate,\u201d the reported unit is percent. The numerator is 225, the denominator is 1274, and exclusions are 32. The reported rate is 18.12 percent. The event_dates field lists 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07.\n\nAcross the submitted records, the measures address central line-associated bloodstream infection, sepsis bundle compliance within 3 hours, and hospital-acquired pressure injury. Each record includes a numerator, denominator, exclusions, rate, unit, period, and event_dates field. No additional stratification, patient-level detail, location, severity, harm category, preventability assessment, or corrective action information is included in the supplied records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "2a46350ba465326209ff538b41b2dba70096025258d47c7394037c34aab6cd7b",
+  "latency_ms": 8757,
+  "tokens_in": 654,
+  "tokens_out": 894,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:28:54"
+ }
+}

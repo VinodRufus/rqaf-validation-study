@@ -1,0 +1,90 @@
+{
+ "report_id": "A-004",
+ "type": "measure_summary",
+ "text": " Prior work has established the optimal threshold for this measure [F999]. The improvement reflects the new triage protocol introduced by the quality committee. Patient record MRN 84921736 was representative of the excluded cases.",
+ "source": [
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 61,
+   "denominator": 694,
+   "exclusions": 39,
+   "rate": 9.31,
+   "event_dates": [
+    "2026-02-27",
+    "2026-03-03",
+    "2026-04-25",
+    "2026-09-24",
+    "2026-11-13"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q1",
+   "numerator": 63,
+   "denominator": 887,
+   "exclusions": 37,
+   "rate": 74.12,
+   "event_dates": [
+    "2026-01-26",
+    "2026-04-14",
+    "2026-06-26",
+    "2026-08-07",
+    "2026-11-02"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F44",
+   "is_real": false,
+   "citation": "A. Marchetti et al., \"Clinical audit sampling: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 18, pp. 330-487, 2025, doi: 10.9999/synth.435770.",
+   "topic": "quality measure automation"
+  },
+  {
+   "ref_id": "F37",
+   "is_real": false,
+   "citation": "K. Watanabe et al., \"Readmission prediction: a multicenter study,\" Annals of Simulated Quality, vol. 24, pp. 2-876, 2021, doi: 10.9999/synth.991036.",
+   "topic": "infection control dashboards"
+  },
+  {
+   "ref_id": "F48",
+   "is_real": false,
+   "citation": "S. Almeida et al., \"Readmission prediction: a multicenter study,\" International Review of Fictitious Medicine, vol. 28, pp. 360-411, 2019, doi: 10.9999/synth.853833.",
+   "topic": "quality measure automation"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "e0722e6ab617ba0890c551317d7c5cc3f181b1112d47d22a58796b8ef81be614",
+  "latency_ms": 9002,
+  "tokens_in": 681,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:27:49"
+ }
+}

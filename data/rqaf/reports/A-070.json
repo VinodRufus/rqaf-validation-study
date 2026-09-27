@@ -1,0 +1,78 @@
+{
+ "report_id": "A-070",
+ "type": "measure_summary",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 41,
+   "denominator": 210,
+   "exclusions": 15,
+   "rate": 21.03,
+   "event_dates": [
+    "2026-01-24",
+    "2026-07-04",
+    "2026-07-19",
+    "2026-09-18",
+    "2026-11-09"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  },
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 225,
+   "denominator": 1274,
+   "exclusions": 32,
+   "rate": 18.12,
+   "event_dates": [
+    "2026-01-19",
+    "2026-05-17",
+    "2026-05-19",
+    "2026-06-27",
+    "2026-12-07"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F59",
+   "is_real": false,
+   "citation": "D. Kowalczyk et al., \"Infection control dashboards: a multicenter study,\" International Review of Fictitious Medicine, vol. 37, pp. 152-671, 2019, doi: 10.9999/synth.553284.",
+   "topic": "nurse staffing analytics"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "89785e11d0c13a912d91aafa01058d09e4b6997045786b04b51312a6225b7554",
+  "latency_ms": 8504,
+  "tokens_in": 564,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:37:45"
+ }
+}

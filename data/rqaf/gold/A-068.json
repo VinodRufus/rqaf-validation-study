@@ -1,0 +1,25 @@
+{
+ "report_id": "A-068",
+ "injections": [
+  {
+   "type": "contradicted_claim",
+   "field": "numerator",
+   "measure_id": "MED-REC",
+   "original": 66,
+   "injected": 73,
+   "severity": "critical"
+  },
+  {
+   "type": "unsupported_citation",
+   "text": "Prior work has established the optimal threshold for this measure [F32].",
+   "severity": "low"
+  },
+  {
+   "type": "hallucinated_claim",
+   "text": "The improvement reflects the new triage protocol introduced by the quality committee.",
+   "severity": "low"
+  }
+ ],
+ "gold_disposition": "reject",
+ "has_critical": true
+}

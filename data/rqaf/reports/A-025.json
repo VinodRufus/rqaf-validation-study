@@ -1,0 +1,84 @@
+{
+ "report_id": "A-025",
+ "type": "measure_summary",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q2",
+   "numerator": 107,
+   "denominator": 1242,
+   "exclusions": 66,
+   "rate": 90.99,
+   "event_dates": [
+    "2026-01-11",
+    "2026-04-01",
+    "2026-08-22",
+    "2026-10-02",
+    "2026-11-03"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 115,
+   "denominator": 535,
+   "exclusions": 41,
+   "rate": 23.28,
+   "event_dates": [
+    "2026-02-14",
+    "2026-04-08",
+    "2026-08-18",
+    "2026-09-28",
+    "2026-10-19"
+   ]
+  },
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 32,
+   "denominator": 307,
+   "exclusions": 5,
+   "rate": 10.6,
+   "event_dates": [
+    "2026-01-28",
+    "2026-05-07",
+    "2026-06-17",
+    "2026-08-19",
+    "2026-08-21"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F38",
+   "is_real": false,
+   "citation": "H. Bergstrom et al., \"Infection control dashboards: a multicenter study,\" International Review of Fictitious Medicine, vol. 18, pp. 325-718, 2024, doi: 10.9999/synth.206454.",
+   "topic": "readmission prediction"
+  },
+  {
+   "ref_id": "F58",
+   "is_real": false,
+   "citation": "K. Watanabe et al., \"Readmission prediction: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 38, pp. 210-670, 2023, doi: 10.9999/synth.514667.",
+   "topic": "sepsis surveillance"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "3e6eb9c40195237415b1f3a5a6fc3a3b1fa7974959f43e8d5a5017486bbbd163",
+  "latency_ms": 8809,
+  "tokens_in": 623,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:31:00"
+ }
+}

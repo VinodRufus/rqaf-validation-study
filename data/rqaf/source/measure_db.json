@@ -1,0 +1,172 @@
+[
+ {
+  "measure_id": "CLABSI-01",
+  "name": "Central line-associated bloodstream infection rate",
+  "unit": "per 1,000 line-days",
+  "period": "2026-Q1",
+  "numerator": 63,
+  "denominator": 887,
+  "exclusions": 37,
+  "rate": 74.12,
+  "event_dates": [
+   "2026-01-26",
+   "2026-04-14",
+   "2026-06-26",
+   "2026-08-07",
+   "2026-11-02"
+  ]
+ },
+ {
+  "measure_id": "CLABSI-01",
+  "name": "Central line-associated bloodstream infection rate",
+  "unit": "per 1,000 line-days",
+  "period": "2026-Q2",
+  "numerator": 107,
+  "denominator": 1242,
+  "exclusions": 66,
+  "rate": 90.99,
+  "event_dates": [
+   "2026-01-11",
+   "2026-04-01",
+   "2026-08-22",
+   "2026-10-02",
+   "2026-11-03"
+  ]
+ },
+ {
+  "measure_id": "READM-30",
+  "name": "30-day all-cause readmission rate",
+  "unit": "percent",
+  "period": "2026-Q1",
+  "numerator": 188,
+  "denominator": 1325,
+  "exclusions": 43,
+  "rate": 14.66,
+  "event_dates": [
+   "2026-01-24",
+   "2026-04-18",
+   "2026-06-19",
+   "2026-07-17",
+   "2026-11-21"
+  ]
+ },
+ {
+  "measure_id": "READM-30",
+  "name": "30-day all-cause readmission rate",
+  "unit": "percent",
+  "period": "2026-Q2",
+  "numerator": 76,
+  "denominator": 1033,
+  "exclusions": 33,
+  "rate": 7.6,
+  "event_dates": [
+   "2026-02-10",
+   "2026-05-05",
+   "2026-06-26",
+   "2026-09-17",
+   "2026-12-02"
+  ]
+ },
+ {
+  "measure_id": "SEP-B1",
+  "name": "Sepsis bundle compliance within 3 hours",
+  "unit": "percent",
+  "period": "2026-Q1",
+  "numerator": 115,
+  "denominator": 535,
+  "exclusions": 41,
+  "rate": 23.28,
+  "event_dates": [
+   "2026-02-14",
+   "2026-04-08",
+   "2026-08-18",
+   "2026-09-28",
+   "2026-10-19"
+  ]
+ },
+ {
+  "measure_id": "SEP-B1",
+  "name": "Sepsis bundle compliance within 3 hours",
+  "unit": "percent",
+  "period": "2026-Q2",
+  "numerator": 61,
+  "denominator": 694,
+  "exclusions": 39,
+  "rate": 9.31,
+  "event_dates": [
+   "2026-02-27",
+   "2026-03-03",
+   "2026-04-25",
+   "2026-09-24",
+   "2026-11-13"
+  ]
+ },
+ {
+  "measure_id": "HAPI-02",
+  "name": "Hospital-acquired pressure injury rate",
+  "unit": "percent",
+  "period": "2026-Q1",
+  "numerator": 225,
+  "denominator": 1274,
+  "exclusions": 32,
+  "rate": 18.12,
+  "event_dates": [
+   "2026-01-19",
+   "2026-05-17",
+   "2026-05-19",
+   "2026-06-27",
+   "2026-12-07"
+  ]
+ },
+ {
+  "measure_id": "HAPI-02",
+  "name": "Hospital-acquired pressure injury rate",
+  "unit": "percent",
+  "period": "2026-Q2",
+  "numerator": 41,
+  "denominator": 210,
+  "exclusions": 15,
+  "rate": 21.03,
+  "event_dates": [
+   "2026-01-24",
+   "2026-07-04",
+   "2026-07-19",
+   "2026-09-18",
+   "2026-11-09"
+  ]
+ },
+ {
+  "measure_id": "MED-REC",
+  "name": "Medication reconciliation completion at discharge",
+  "unit": "percent",
+  "period": "2026-Q1",
+  "numerator": 66,
+  "denominator": 265,
+  "exclusions": 2,
+  "rate": 25.1,
+  "event_dates": [
+   "2026-02-09",
+   "2026-05-02",
+   "2026-06-13",
+   "2026-08-15",
+   "2026-09-01"
+  ]
+ },
+ {
+  "measure_id": "MED-REC",
+  "name": "Medication reconciliation completion at discharge",
+  "unit": "percent",
+  "period": "2026-Q2",
+  "numerator": 32,
+  "denominator": 307,
+  "exclusions": 5,
+  "rate": 10.6,
+  "event_dates": [
+   "2026-01-28",
+   "2026-05-07",
+   "2026-06-17",
+   "2026-08-19",
+   "2026-08-21"
+  ]
+ }
+]

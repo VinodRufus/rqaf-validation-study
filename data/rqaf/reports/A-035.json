@@ -1,0 +1,78 @@
+{
+ "report_id": "A-035",
+ "type": "adverse_event_summary",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 115,
+   "denominator": 535,
+   "exclusions": 41,
+   "rate": 23.28,
+   "event_dates": [
+    "2026-02-14",
+    "2026-04-08",
+    "2026-08-18",
+    "2026-09-28",
+    "2026-10-19"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q1",
+   "numerator": 63,
+   "denominator": 887,
+   "exclusions": 37,
+   "rate": 74.12,
+   "event_dates": [
+    "2026-01-26",
+    "2026-04-14",
+    "2026-06-26",
+    "2026-08-07",
+    "2026-11-02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F57",
+   "is_real": false,
+   "citation": "H. Bergstrom et al., \"Clinical audit sampling: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 30, pp. 99-842, 2021, doi: 10.9999/synth.868585.",
+   "topic": "quality measure automation"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "dde42bc08e361a70d3a4ae1e4aba5a95a2aaa46f2d5df7702b9cba93b639e326",
+  "latency_ms": 9185,
+  "tokens_in": 569,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:32:32"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "report_id": "A-118",
+ "type": "measure_summary",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q2",
+   "numerator": 107,
+   "denominator": 1242,
+   "exclusions": 66,
+   "rate": 90.99,
+   "event_dates": [
+    "2026-01-11",
+    "2026-04-01",
+    "2026-08-22",
+    "2026-10-02",
+    "2026-11-03"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F29",
+   "is_real": false,
+   "citation": "R. Deshmukh et al., \"Clinical audit sampling: a multicenter study,\" Annals of Simulated Quality, vol. 37, pp. 358-499, 2020, doi: 10.9999/synth.177474.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F28",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Clinical audit sampling: a multicenter study,\" Annals of Simulated Quality, vol. 17, pp. 227-500, 2023, doi: 10.9999/synth.166594.",
+   "topic": "sepsis surveillance"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "5a82282c10f50de088366dfee8a7431b055497dde1013fa41c43021fd14602c7",
+  "latency_ms": 8352,
+  "tokens_in": 623,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:44:51"
+ }
+}

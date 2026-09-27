@@ -1,0 +1,90 @@
+{
+ "report_id": "A-002",
+ "type": "adverse_event_summary",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q1",
+   "numerator": 63,
+   "denominator": 887,
+   "exclusions": 37,
+   "rate": 74.12,
+   "event_dates": [
+    "2026-01-26",
+    "2026-04-14",
+    "2026-06-26",
+    "2026-08-07",
+    "2026-11-02"
+   ]
+  },
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F21",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Nurse staffing analytics: a multicenter study,\" Annals of Simulated Quality, vol. 36, pp. 330-658, 2019, doi: 10.9999/synth.448687.",
+   "topic": "nurse staffing analytics"
+  },
+  {
+   "ref_id": "F2",
+   "is_real": false,
+   "citation": "T. Lindqvist et al., \"Readmission prediction: a multicenter study,\" International Review of Fictitious Medicine, vol. 5, pp. 289-699, 2018, doi: 10.9999/synth.477924.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F57",
+   "is_real": false,
+   "citation": "H. Bergstrom et al., \"Clinical audit sampling: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 30, pp. 99-842, 2021, doi: 10.9999/synth.868585.",
+   "topic": "quality measure automation"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "5afad8905aca3f2c83f9c11b38061a15dd4ecc2d247ac4a16c8bc9031424a9c4",
+  "latency_ms": 9773,
+  "tokens_in": 681,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:27:30"
+ }
+}

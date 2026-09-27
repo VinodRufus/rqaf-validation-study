@@ -1,0 +1,73 @@
+{
+ "report_id": "A-099",
+ "type": "compliance_narrative",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 32,
+   "denominator": 307,
+   "exclusions": 5,
+   "rate": 10.6,
+   "event_dates": [
+    "2026-01-28",
+    "2026-05-07",
+    "2026-06-17",
+    "2026-08-19",
+    "2026-08-21"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 61,
+   "denominator": 694,
+   "exclusions": 39,
+   "rate": 9.31,
+   "event_dates": [
+    "2026-02-27",
+    "2026-03-03",
+    "2026-04-25",
+    "2026-09-24",
+    "2026-11-13"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F38",
+   "is_real": false,
+   "citation": "H. Bergstrom et al., \"Infection control dashboards: a multicenter study,\" International Review of Fictitious Medicine, vol. 18, pp. 325-718, 2024, doi: 10.9999/synth.206454.",
+   "topic": "readmission prediction"
+  },
+  {
+   "ref_id": "F37",
+   "is_real": false,
+   "citation": "K. Watanabe et al., \"Readmission prediction: a multicenter study,\" Annals of Simulated Quality, vol. 24, pp. 2-876, 2021, doi: 10.9999/synth.991036.",
+   "topic": "infection control dashboards"
+  },
+  {
+   "ref_id": "F28",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Clinical audit sampling: a multicenter study,\" Annals of Simulated Quality, vol. 17, pp. 227-500, 2023, doi: 10.9999/synth.166594.",
+   "topic": "sepsis surveillance"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "4c3ee6e7928ff540f47a72200155d964325d182560dc8b1b9d46fb3b0121650f",
+  "latency_ms": 8651,
+  "tokens_in": 543,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:42:05"
+ }
+}

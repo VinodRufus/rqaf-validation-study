@@ -1,0 +1,61 @@
+{
+ "report_id": "A-057",
+ "type": "compliance_narrative",
+ "text": "For 2026-Q1, the medication reconciliation completion at discharge measure, MED-REC, was reported as a percent-based measure. The source record lists a numerator of 66, a denominator of 265, exclusions of 2, and a reported rate of 25.1 percent. The measure name specifies completion of medication reconciliation at discharge. The event dates recorded for MED-REC were 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01. No benchmark, target, threshold, or corrective action detail was included in the source record for this measure.\n\nFor the same reporting period, 2026-Q1, the hospital-acquired pressure injury rate measure, HAPI-02, was also reported as a percent-based measure. The source record lists a numerator of 225, a denominator of 1274, exclusions of 32, and a reported rate of 18.12 percent. The measure name identifies the monitored outcome as hospital-acquired pressure injury rate. The event dates recorded for HAPI-02 were 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07. No benchmark, target, threshold, or corrective action detail was included in the source record for this measure.\n\nBased strictly on the supplied records, compliance reporting for 2026-Q1 includes measure identifiers, measure names, units, numerators, denominators, exclusions, rates, periods, and event dates for MED-REC and HAPI-02. The records do not provide supporting narrative on methodology, data validation, accountability assignments, performance expectations, or follow-up actions. Therefore, this narrative is limited to the reported measure results and associated event dates without additional interpretation beyond the structured data provided.",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  },
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 225,
+   "denominator": 1274,
+   "exclusions": 32,
+   "rate": 18.12,
+   "event_dates": [
+    "2026-01-19",
+    "2026-05-17",
+    "2026-05-19",
+    "2026-06-27",
+    "2026-12-07"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F59",
+   "is_real": false,
+   "citation": "D. Kowalczyk et al., \"Infection control dashboards: a multicenter study,\" International Review of Fictitious Medicine, vol. 37, pp. 152-671, 2019, doi: 10.9999/synth.553284.",
+   "topic": "nurse staffing analytics"
+  }
+ ],
+ "gen_meta": {
+  "text": "For 2026-Q1, the medication reconciliation completion at discharge measure, MED-REC, was reported as a percent-based measure. The source record lists a numerator of 66, a denominator of 265, exclusions of 2, and a reported rate of 25.1 percent. The measure name specifies completion of medication reconciliation at discharge. The event dates recorded for MED-REC were 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01. No benchmark, target, threshold, or corrective action detail was included in the source record for this measure.\n\nFor the same reporting period, 2026-Q1, the hospital-acquired pressure injury rate measure, HAPI-02, was also reported as a percent-based measure. The source record lists a numerator of 225, a denominator of 1274, exclusions of 32, and a reported rate of 18.12 percent. The measure name identifies the monitored outcome as hospital-acquired pressure injury rate. The event dates recorded for HAPI-02 were 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07. No benchmark, target, threshold, or corrective action detail was included in the source record for this measure.\n\nBased strictly on the supplied records, compliance reporting for 2026-Q1 includes measure identifiers, measure names, units, numerators, denominators, exclusions, rates, periods, and event dates for MED-REC and HAPI-02. The records do not provide supporting narrative on methodology, data validation, accountability assignments, performance expectations, or follow-up actions. Therefore, this narrative is limited to the reported measure results and associated event dates without additional interpretation beyond the structured data provided.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "bad623f152a0f20ba8901e84e60e9b1418d093f57483ad093b8343353896350e",
+  "latency_ms": 8340,
+  "tokens_in": 431,
+  "tokens_out": 735,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:35:47"
+ }
+}

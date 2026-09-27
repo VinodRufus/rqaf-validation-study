@@ -1,0 +1,67 @@
+{
+ "report_id": "A-052",
+ "type": "measure_summary",
+ "text": "The available source records describe measure HAPI-02, named \u201cHospital-acquired pressure injury rate,\u201d with the unit reported as percent. For period 2026-Q1, the source record lists a numerator of 225, a denominator of 1274, exclusions of 32, and a rate of 18.12 percent. The event dates recorded for 2026-Q1 are 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07.\n\nFor period 2026-Q2, the source record lists a numerator of 41, a denominator of 210, exclusions of 15, and a rate of 21.03 percent. The event dates recorded for 2026-Q2 are 2026-01-24, 2026-07-04, 2026-07-19, 2026-09-18, and 2026-11-09.\n\nTaken together, the records provide period-level reporting for HAPI-02 using the same measure name and unit. The reported data elements are limited to the numerator, denominator, exclusions, rate, and event dates for each period. The 2026-Q1 record reports a larger denominator and numerator than the 2026-Q2 record, while the 2026-Q2 record reports a higher rate than the 2026-Q1 record. Exclusions are reported separately for each period, with 32 exclusions in 2026-Q1 and 15 exclusions in 2026-Q2.\n\nThis summary does not apply an external benchmark, target, or statistical test. It reflects only the structured values provided for HAPI-02 in the source records. No additional measure specifications, case definitions, validation notes, or stratified results were provided in the source records.",
+ "source": [
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 225,
+   "denominator": 1274,
+   "exclusions": 32,
+   "rate": 18.12,
+   "event_dates": [
+    "2026-01-19",
+    "2026-05-17",
+    "2026-05-19",
+    "2026-06-27",
+    "2026-12-07"
+   ]
+  },
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 41,
+   "denominator": 210,
+   "exclusions": 15,
+   "rate": 21.03,
+   "event_dates": [
+    "2026-01-24",
+    "2026-07-04",
+    "2026-07-19",
+    "2026-09-18",
+    "2026-11-09"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F29",
+   "is_real": false,
+   "citation": "R. Deshmukh et al., \"Clinical audit sampling: a multicenter study,\" Annals of Simulated Quality, vol. 37, pp. 358-499, 2020, doi: 10.9999/synth.177474.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F14",
+   "is_real": false,
+   "citation": "D. Kowalczyk et al., \"Sepsis surveillance: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 25, pp. 32-435, 2019, doi: 10.9999/synth.547904.",
+   "topic": "infection control dashboards"
+  }
+ ],
+ "gen_meta": {
+  "text": "The available source records describe measure HAPI-02, named \u201cHospital-acquired pressure injury rate,\u201d with the unit reported as percent. For period 2026-Q1, the source record lists a numerator of 225, a denominator of 1274, exclusions of 32, and a rate of 18.12 percent. The event dates recorded for 2026-Q1 are 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07.\n\nFor period 2026-Q2, the source record lists a numerator of 41, a denominator of 210, exclusions of 15, and a rate of 21.03 percent. The event dates recorded for 2026-Q2 are 2026-01-24, 2026-07-04, 2026-07-19, 2026-09-18, and 2026-11-09.\n\nTaken together, the records provide period-level reporting for HAPI-02 using the same measure name and unit. The reported data elements are limited to the numerator, denominator, exclusions, rate, and event dates for each period. The 2026-Q1 record reports a larger denominator and numerator than the 2026-Q2 record, while the 2026-Q2 record reports a higher rate than the 2026-Q1 record. Exclusions are reported separately for each period, with 32 exclusions in 2026-Q1 and 15 exclusions in 2026-Q2.\n\nThis summary does not apply an external benchmark, target, or statistical test. It reflects only the structured values provided for HAPI-02 in the source records. No additional measure specifications, case definitions, validation notes, or stratified results were provided in the source records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "b3f0dc71f5cc3780625a508e62a4f9436bc7d373acb7415ee84b26e1b26b7c1e",
+  "latency_ms": 9573,
+  "tokens_in": 488,
+  "tokens_out": 882,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:35:01"
+ }
+}

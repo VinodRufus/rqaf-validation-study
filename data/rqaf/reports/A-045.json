@@ -1,0 +1,67 @@
+{
+ "report_id": "A-045",
+ "type": "compliance_narrative",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 225,
+   "denominator": 1274,
+   "exclusions": 32,
+   "rate": 18.12,
+   "event_dates": [
+    "2026-01-19",
+    "2026-05-17",
+    "2026-05-19",
+    "2026-06-27",
+    "2026-12-07"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F19",
+   "is_real": false,
+   "citation": "S. Almeida et al., \"Nurse staffing analytics: a multicenter study,\" International Review of Fictitious Medicine, vol. 20, pp. 26-450, 2025, doi: 10.9999/synth.137685.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F37",
+   "is_real": false,
+   "citation": "K. Watanabe et al., \"Readmission prediction: a multicenter study,\" Annals of Simulated Quality, vol. 24, pp. 2-876, 2021, doi: 10.9999/synth.991036.",
+   "topic": "infection control dashboards"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "17fb0dce074cb733125380630bfe750ae663d328f412cb96b863466518c02e59",
+  "latency_ms": 8385,
+  "tokens_in": 491,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:33:59"
+ }
+}

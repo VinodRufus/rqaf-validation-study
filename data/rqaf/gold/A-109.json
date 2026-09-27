@@ -1,0 +1,23 @@
+{
+ "report_id": "A-109",
+ "injections": [
+  {
+   "type": "unsupported_citation",
+   "text": "Prior work has established the optimal threshold for this measure [F19].",
+   "severity": "low"
+  },
+  {
+   "type": "invalid_citation",
+   "original": "[F2]",
+   "injected": "[F999]",
+   "severity": "low"
+  },
+  {
+   "type": "hallucinated_claim",
+   "text": "Staff survey results showed a 40 percent increase in reporting confidence over the period.",
+   "severity": "low"
+  }
+ ],
+ "gold_disposition": "review",
+ "has_critical": false
+}

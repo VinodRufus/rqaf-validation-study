@@ -1,0 +1,73 @@
+{
+ "report_id": "A-060",
+ "type": "compliance_narrative",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 32,
+   "denominator": 307,
+   "exclusions": 5,
+   "rate": 10.6,
+   "event_dates": [
+    "2026-01-28",
+    "2026-05-07",
+    "2026-06-17",
+    "2026-08-19",
+    "2026-08-21"
+   ]
+  },
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 41,
+   "denominator": 210,
+   "exclusions": 15,
+   "rate": 21.03,
+   "event_dates": [
+    "2026-01-24",
+    "2026-07-04",
+    "2026-07-19",
+    "2026-09-18",
+    "2026-11-09"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F4",
+   "is_real": false,
+   "citation": "M. Okafor et al., \"Infection control dashboards: a multicenter study,\" Annals of Simulated Quality, vol. 32, pp. 259-662, 2022, doi: 10.9999/synth.337948.",
+   "topic": "nurse staffing analytics"
+  },
+  {
+   "ref_id": "F16",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Infection control dashboards: a multicenter study,\" Annals of Simulated Quality, vol. 27, pp. 170-793, 2022, doi: 10.9999/synth.317730.",
+   "topic": "nurse staffing analytics"
+  },
+  {
+   "ref_id": "F28",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Clinical audit sampling: a multicenter study,\" Annals of Simulated Quality, vol. 17, pp. 227-500, 2023, doi: 10.9999/synth.166594.",
+   "topic": "sepsis surveillance"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "fa3d6993165c9241a55b76a48536659f461597319f1978818161d20c3fbad69b",
+  "latency_ms": 9420,
+  "tokens_in": 542,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:36:15"
+ }
+}

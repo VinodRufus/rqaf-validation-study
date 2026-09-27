@@ -1,0 +1,67 @@
+{
+ "report_id": "A-022",
+ "type": "measure_summary",
+ "text": "This measure summary covers the supplied records for SEP-B1 and READM-30.\n\nFor SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the reported period is 2026-Q1. The measure unit is percent. The numerator is 115, the denominator is 535, and exclusions are 41. The reported rate is 23.28 percent. The event dates listed in the record are 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19. The available reference list includes a sepsis surveillance publication [F43].\n\nFor READM-30, \u201c30-day all-cause readmission rate,\u201d the reported period is 2026-Q2. The measure unit is percent. The numerator is 76, the denominator is 1033, and exclusions are 33. The reported rate is 7.6 percent. The event dates listed in the record are 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02.\n\nThe supplied records provide measure identifiers, measure names, reporting periods, units, numerators, denominators, exclusions, rates, and event dates. They do not include stratified results, target thresholds, benchmark values, performance goals, or causal explanations. Accordingly, this summary reports the measure values as provided and does not characterize performance as meeting or missing a target.",
+ "source": [
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 115,
+   "denominator": 535,
+   "exclusions": 41,
+   "rate": 23.28,
+   "event_dates": [
+    "2026-02-14",
+    "2026-04-08",
+    "2026-08-18",
+    "2026-09-28",
+    "2026-10-19"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F47",
+   "is_real": false,
+   "citation": "S. Almeida et al., \"Nurse staffing analytics: a multicenter study,\" Annals of Simulated Quality, vol. 24, pp. 346-715, 2020, doi: 10.9999/synth.266763.",
+   "topic": "nurse staffing analytics"
+  },
+  {
+   "ref_id": "F43",
+   "is_real": false,
+   "citation": "T. Lindqvist et al., \"Sepsis surveillance: a multicenter study,\" Annals of Simulated Quality, vol. 23, pp. 49-768, 2021, doi: 10.9999/synth.266638.",
+   "topic": "nurse staffing analytics"
+  }
+ ],
+ "gen_meta": {
+  "text": "This measure summary covers the supplied records for SEP-B1 and READM-30.\n\nFor SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the reported period is 2026-Q1. The measure unit is percent. The numerator is 115, the denominator is 535, and exclusions are 41. The reported rate is 23.28 percent. The event dates listed in the record are 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19. The available reference list includes a sepsis surveillance publication [F43].\n\nFor READM-30, \u201c30-day all-cause readmission rate,\u201d the reported period is 2026-Q2. The measure unit is percent. The numerator is 76, the denominator is 1033, and exclusions are 33. The reported rate is 7.6 percent. The event dates listed in the record are 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02.\n\nThe supplied records provide measure identifiers, measure names, reporting periods, units, numerators, denominators, exclusions, rates, and event dates. They do not include stratified results, target thresholds, benchmark values, performance goals, or causal explanations. Accordingly, this summary reports the measure values as provided and does not characterize performance as meeting or missing a target.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "ea008bff66038de18c5fb745572e888f9cac1d25cbee06434d22dcb6d461521c",
+  "latency_ms": 10136,
+  "tokens_in": 490,
+  "tokens_out": 842,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:30:33"
+ }
+}

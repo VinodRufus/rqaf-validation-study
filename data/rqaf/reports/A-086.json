@@ -1,0 +1,73 @@
+{
+ "report_id": "A-086",
+ "type": "adverse_event_summary",
+ "text": "Adverse event summary for the reported quality records includes central line-associated bloodstream infection and sepsis bundle compliance measures for 2026-Q1.\n\nFor measure CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d the reported unit is per 1,000 line-days. The record reports a numerator of 63, a denominator of 887, exclusions of 37, and a rate of 74.12 per 1,000 line-days. The event dates recorded for this measure are 2026-01-26, 2026-04-14, 2026-06-26, 2026-08-07, and 2026-11-02. These dates are presented as listed in the source record.\n\nFor measure SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the reported unit is percent. The record reports a numerator of 115, a denominator of 535, exclusions of 41, and a rate of 23.28 percent. The event dates recorded for this measure are 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19. These dates are presented as listed in the source record.\n\nAcross the reported 2026-Q1 records, CLABSI-01 is expressed as an infection rate per 1,000 line-days, while SEP-B1 is expressed as a compliance percentage. The records include numerator, denominator, exclusions, rate, period, unit, measure name, measure identifier, and event dates for each measure. No additional causal factors, patient-level details, facility locations, severity classifications, preventability determinations, or outcome descriptions are provided in the source records. Therefore, this summary is limited to the reported measure values and listed event dates.",
+ "source": [
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q1",
+   "numerator": 63,
+   "denominator": 887,
+   "exclusions": 37,
+   "rate": 74.12,
+   "event_dates": [
+    "2026-01-26",
+    "2026-04-14",
+    "2026-06-26",
+    "2026-08-07",
+    "2026-11-02"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 115,
+   "denominator": 535,
+   "exclusions": 41,
+   "rate": 23.28,
+   "event_dates": [
+    "2026-02-14",
+    "2026-04-08",
+    "2026-08-18",
+    "2026-09-28",
+    "2026-10-19"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F7",
+   "is_real": false,
+   "citation": "T. Lindqvist et al., \"Clinical audit sampling: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 22, pp. 112-872, 2024, doi: 10.9999/synth.531746.",
+   "topic": "infection control dashboards"
+  },
+  {
+   "ref_id": "F55",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Infection control dashboards: a multicenter study,\" International Review of Fictitious Medicine, vol. 32, pp. 105-687, 2020, doi: 10.9999/synth.155888.",
+   "topic": "sepsis surveillance"
+  },
+  {
+   "ref_id": "F33",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Quality measure automation: a multicenter study,\" International Review of Fictitious Medicine, vol. 35, pp. 153-678, 2025, doi: 10.9999/synth.281943.",
+   "topic": "readmission prediction"
+  }
+ ],
+ "gen_meta": {
+  "text": "Adverse event summary for the reported quality records includes central line-associated bloodstream infection and sepsis bundle compliance measures for 2026-Q1.\n\nFor measure CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d the reported unit is per 1,000 line-days. The record reports a numerator of 63, a denominator of 887, exclusions of 37, and a rate of 74.12 per 1,000 line-days. The event dates recorded for this measure are 2026-01-26, 2026-04-14, 2026-06-26, 2026-08-07, and 2026-11-02. These dates are presented as listed in the source record.\n\nFor measure SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the reported unit is percent. The record reports a numerator of 115, a denominator of 535, exclusions of 41, and a rate of 23.28 percent. The event dates recorded for this measure are 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19. These dates are presented as listed in the source record.\n\nAcross the reported 2026-Q1 records, CLABSI-01 is expressed as an infection rate per 1,000 line-days, while SEP-B1 is expressed as a compliance percentage. The records include numerator, denominator, exclusions, rate, period, unit, measure name, measure identifier, and event dates for each measure. No additional causal factors, patient-level details, facility locations, severity classifications, preventability determinations, or outcome descriptions are provided in the source records. Therefore, this summary is limited to the reported measure values and listed event dates.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "9662995def1c081c41911b8a24edfa1c17605965cd687d8062779a68a69808e4",
+  "latency_ms": 9090,
+  "tokens_in": 554,
+  "tokens_out": 899,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:40:07"
+ }
+}

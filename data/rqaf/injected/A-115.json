@@ -1,0 +1,78 @@
+{
+ "report_id": "A-115",
+ "type": "measure_summary",
+ "text": "For 2026-Q1, SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d was reported as 115 compliant cases out of a denominator of 535, with 41 exclusions. The recorded rate was 23.28 percent. The event dates listed for this measure record were 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19.\n\nFor 2026-Q2, SEP-B1 was reported again under the same measure name, \u201cSepsis bundle compliance within 3 hours.\u201d The numerator was 61, the denominator was 694, and exclusions were 39. The recorded rate was 9.31 percent. The event dates listed for this record were 2026-02-27, 2026-03-03, 2026-04-25, 2026-09-24, and 2026-11-13.\n\nFor 2026-Q1, MED-REC, \u201cMedication reconciliation completion at discharge,\u201d was reported as 66 completed cases out of a denominator of 265, with 2 exclusions. The recorded rate was 25.1 percent. The event dates listed for this measure record were 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01.\n\nThese records provide measure-level results by measure identifier, measure name, reporting period, numerator, denominator, exclusions, rate, unit, and associated event dates. The reported unit for each measure result was percent. No benchmark, target threshold, peer comparison, statistical test, or explanatory cause was provided in the source records. Accordingly, this summary reports the submitted values as recorded and does not characterize performance relative to an external standard or infer reasons for the reported rates.",
+ "source": [
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 115,
+   "denominator": 535,
+   "exclusions": 41,
+   "rate": 23.28,
+   "event_dates": [
+    "2026-02-14",
+    "2026-04-08",
+    "2026-08-18",
+    "2026-09-28",
+    "2026-10-19"
+   ]
+  },
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 61,
+   "denominator": 694,
+   "exclusions": 39,
+   "rate": 9.31,
+   "event_dates": [
+    "2026-02-27",
+    "2026-03-03",
+    "2026-04-25",
+    "2026-09-24",
+    "2026-11-13"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F36",
+   "is_real": false,
+   "citation": "M. Okafor et al., \"Infection control dashboards: a multicenter study,\" International Review of Fictitious Medicine, vol. 40, pp. 326-450, 2022, doi: 10.9999/synth.874958.",
+   "topic": "clinical audit sampling"
+  }
+ ],
+ "gen_meta": {
+  "text": "For 2026-Q1, SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d was reported as 115 compliant cases out of a denominator of 535, with 41 exclusions. The recorded rate was 23.28 percent. The event dates listed for this measure record were 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19.\n\nFor 2026-Q2, SEP-B1 was reported again under the same measure name, \u201cSepsis bundle compliance within 3 hours.\u201d The numerator was 61, the denominator was 694, and exclusions were 39. The recorded rate was 9.31 percent. The event dates listed for this record were 2026-02-27, 2026-03-03, 2026-04-25, 2026-09-24, and 2026-11-13.\n\nFor 2026-Q1, MED-REC, \u201cMedication reconciliation completion at discharge,\u201d was reported as 66 completed cases out of a denominator of 265, with 2 exclusions. The recorded rate was 25.1 percent. The event dates listed for this measure record were 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01.\n\nThese records provide measure-level results by measure identifier, measure name, reporting period, numerator, denominator, exclusions, rate, unit, and associated event dates. The reported unit for each measure result was percent. No benchmark, target threshold, peer comparison, statistical test, or explanatory cause was provided in the source records. Accordingly, this summary reports the submitted values as recorded and does not characterize performance relative to an external standard or infer reasons for the reported rates.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "2da123023428c27712b5b3839fa4fecbee3e6c2bc9c1a034ce3eab2e76ea0d8a",
+  "latency_ms": 8790,
+  "tokens_in": 560,
+  "tokens_out": 864,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:44:24"
+ }
+}

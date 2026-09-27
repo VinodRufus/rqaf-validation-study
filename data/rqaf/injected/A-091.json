@@ -1,0 +1,84 @@
+{
+ "report_id": "A-091",
+ "type": "measure_summary",
+ "text": " Follow-up was coordinated for the patient at 1247 Sycamore Lane (DOB 03/14/2019). Prior work has established the optimal threshold for this measure [F1]. The improvement reflects the new triage protocol introduced by the quality committee.",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 32,
+   "denominator": 307,
+   "exclusions": 5,
+   "rate": 10.6,
+   "event_dates": [
+    "2026-01-28",
+    "2026-05-07",
+    "2026-06-17",
+    "2026-08-19",
+    "2026-08-21"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 61,
+   "denominator": 694,
+   "exclusions": 39,
+   "rate": 9.31,
+   "event_dates": [
+    "2026-02-27",
+    "2026-03-03",
+    "2026-04-25",
+    "2026-09-24",
+    "2026-11-13"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q1",
+   "numerator": 63,
+   "denominator": 887,
+   "exclusions": 37,
+   "rate": 74.12,
+   "event_dates": [
+    "2026-01-26",
+    "2026-04-14",
+    "2026-06-26",
+    "2026-08-07",
+    "2026-11-02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F6",
+   "is_real": false,
+   "citation": "P. Novak et al., \"Quality measure automation: a multicenter study,\" International Review of Fictitious Medicine, vol. 10, pp. 208-510, 2019, doi: 10.9999/synth.338647.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F1",
+   "is_real": false,
+   "citation": "K. Watanabe et al., \"Quality measure automation: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 28, pp. 177-855, 2019, doi: 10.9999/synth.260654.",
+   "topic": "clinical audit sampling"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "11acea73ec24a303d5119a53caba25540aef67419d6bf20fe1f799124fb478ac",
+  "latency_ms": 8302,
+  "tokens_in": 620,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:40:53"
+ }
+}

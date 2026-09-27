@@ -1,0 +1,78 @@
+{
+ "report_id": "A-008",
+ "type": "adverse_event_summary",
+ "text": "The provided adverse event records include two measures for 30-day all-cause readmission rate and one measure for hospital-acquired pressure injury rate.\n\nFor READM-30, the 30-day all-cause readmission rate in 2026-Q1 was 14.66 percent. The numerator was 188, the denominator was 1325, and exclusions were 43. The event_dates field for this record lists 2026-01-24, 2026-04-18, 2026-06-19, 2026-07-17, and 2026-11-21.\n\nFor READM-30 in 2026-Q2, the 30-day all-cause readmission rate was 7.6 percent. The numerator was 76, the denominator was 1033, and exclusions were 33. The event_dates field for this record lists 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02.\n\nFor HAPI-02, the hospital-acquired pressure injury rate in 2026-Q1 was 18.12 percent. The numerator was 225, the denominator was 1274, and exclusions were 32. The event_dates field for this record lists 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07.\n\nAcross the submitted records, the adverse event measures are limited to readmission and hospital-acquired pressure injury reporting. The records provide measure identifiers, measure names, reporting periods, numerators, denominators, exclusions, rates, units, and event date fields. No additional details are provided regarding patient characteristics, event severity, contributing factors, preventability, clinical setting, or corrective actions. Therefore, this summary is limited to the structured measure results and listed event dates contained in the source records.",
+ "source": [
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  },
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 225,
+   "denominator": 1274,
+   "exclusions": 32,
+   "rate": 18.12,
+   "event_dates": [
+    "2026-01-19",
+    "2026-05-17",
+    "2026-05-19",
+    "2026-06-27",
+    "2026-12-07"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 188,
+   "denominator": 1325,
+   "exclusions": 43,
+   "rate": 14.66,
+   "event_dates": [
+    "2026-01-24",
+    "2026-04-18",
+    "2026-06-19",
+    "2026-07-17",
+    "2026-11-21"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F26",
+   "is_real": false,
+   "citation": "M. Okafor et al., \"Nurse staffing analytics: a multicenter study,\" Annals of Simulated Quality, vol. 38, pp. 138-789, 2021, doi: 10.9999/synth.404576.",
+   "topic": "clinical audit sampling"
+  }
+ ],
+ "gen_meta": {
+  "text": "The provided adverse event records include two measures for 30-day all-cause readmission rate and one measure for hospital-acquired pressure injury rate.\n\nFor READM-30, the 30-day all-cause readmission rate in 2026-Q1 was 14.66 percent. The numerator was 188, the denominator was 1325, and exclusions were 43. The event_dates field for this record lists 2026-01-24, 2026-04-18, 2026-06-19, 2026-07-17, and 2026-11-21.\n\nFor READM-30 in 2026-Q2, the 30-day all-cause readmission rate was 7.6 percent. The numerator was 76, the denominator was 1033, and exclusions were 33. The event_dates field for this record lists 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02.\n\nFor HAPI-02, the hospital-acquired pressure injury rate in 2026-Q1 was 18.12 percent. The numerator was 225, the denominator was 1274, and exclusions were 32. The event_dates field for this record lists 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07.\n\nAcross the submitted records, the adverse event measures are limited to readmission and hospital-acquired pressure injury reporting. The records provide measure identifiers, measure names, reporting periods, numerators, denominators, exclusions, rates, units, and event date fields. No additional details are provided regarding patient characteristics, event severity, contributing factors, preventability, clinical setting, or corrective actions. Therefore, this summary is limited to the structured measure results and listed event dates contained in the source records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "8d5b5a93ecd99259a2e75f5157eb999e1a613ce7ec84e36c5a839822912afcdc",
+  "latency_ms": 9188,
+  "tokens_in": 567,
+  "tokens_out": 877,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:28:26"
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "report_id": "A-044",
+ "injections": [
+  {
+   "type": "omitted_required_fact",
+   "removed": "The numerator was 61, the denominator was 694, and exclusions were 39.",
+   "severity": "critical"
+  },
+  {
+   "type": "invalid_citation",
+   "original": "[F16]",
+   "injected": "[F999]",
+   "severity": "low"
+  },
+  {
+   "type": "hallucinated_claim",
+   "text": "The improvement reflects the new triage protocol introduced by the quality committee.",
+   "severity": "low"
+  }
+ ],
+ "gold_disposition": "review",
+ "has_critical": true
+}

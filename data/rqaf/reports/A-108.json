@@ -1,0 +1,61 @@
+{
+ "report_id": "A-108",
+ "type": "compliance_narrative",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 61,
+   "denominator": 694,
+   "exclusions": 39,
+   "rate": 9.31,
+   "event_dates": [
+    "2026-02-27",
+    "2026-03-03",
+    "2026-04-25",
+    "2026-09-24",
+    "2026-11-13"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q2",
+   "numerator": 107,
+   "denominator": 1242,
+   "exclusions": 66,
+   "rate": 90.99,
+   "event_dates": [
+    "2026-01-11",
+    "2026-04-01",
+    "2026-08-22",
+    "2026-10-02",
+    "2026-11-03"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F39",
+   "is_real": false,
+   "citation": "D. Kowalczyk et al., \"Clinical audit sampling: a multicenter study,\" Annals of Simulated Quality, vol. 34, pp. 241-438, 2023, doi: 10.9999/synth.269876.",
+   "topic": "infection control dashboards"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "889e7be215e53028b247efb53259ee17f67cf1ee4fccf5355d89c70d83cc58a0",
+  "latency_ms": 9479,
+  "tokens_in": 439,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:43:22"
+ }
+}

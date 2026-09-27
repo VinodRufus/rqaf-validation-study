@@ -1,0 +1,67 @@
+{
+ "report_id": "A-113",
+ "type": "adverse_event_summary",
+ "text": "Adverse event summary narrative for measure READM-30, \u201c30-day all-cause readmission rate,\u201d is based on the submitted records for periods 2026-Q1 and 2026-Q2. The measure unit is percent.\n\nFor the record labeled 2026-Q1, the numerator was 188 and the denominator was 1325, with 43 exclusions. The reported rate was 14.66 percent. The event_dates field for this record listed 2026-01-24, 2026-04-18, 2026-06-19, 2026-07-17, and 2026-11-21. These dates were recorded under the same READM-30 measure record for 2026-Q1.\n\nFor the record labeled 2026-Q2, the numerator was 76 and the denominator was 1033, with 33 exclusions. The reported rate was 7.6 percent. The event_dates field for this record listed 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02. These dates were recorded under the same READM-30 measure record for 2026-Q2.\n\nAcross the submitted records, the adverse event category captured was all-cause readmission within the READM-30 measure. The records provide period labels, numerator counts, denominator counts, exclusions, reported rates, and associated event dates. No additional stratification, patient-level details, location details, severity categories, preventability assessment, root-cause findings, or corrective actions were included in the submitted source records. Therefore, this summary is limited to the reported measure data and the event dates listed in the provided records.",
+ "source": [
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 188,
+   "denominator": 1325,
+   "exclusions": 43,
+   "rate": 14.66,
+   "event_dates": [
+    "2026-01-24",
+    "2026-04-18",
+    "2026-06-19",
+    "2026-07-17",
+    "2026-11-21"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F1",
+   "is_real": false,
+   "citation": "K. Watanabe et al., \"Quality measure automation: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 28, pp. 177-855, 2019, doi: 10.9999/synth.260654.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F32",
+   "is_real": false,
+   "citation": "H. Bergstrom et al., \"Nurse staffing analytics: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 9, pp. 212-752, 2024, doi: 10.9999/synth.680136.",
+   "topic": "quality measure automation"
+  }
+ ],
+ "gen_meta": {
+  "text": "Adverse event summary narrative for measure READM-30, \u201c30-day all-cause readmission rate,\u201d is based on the submitted records for periods 2026-Q1 and 2026-Q2. The measure unit is percent.\n\nFor the record labeled 2026-Q1, the numerator was 188 and the denominator was 1325, with 43 exclusions. The reported rate was 14.66 percent. The event_dates field for this record listed 2026-01-24, 2026-04-18, 2026-06-19, 2026-07-17, and 2026-11-21. These dates were recorded under the same READM-30 measure record for 2026-Q1.\n\nFor the record labeled 2026-Q2, the numerator was 76 and the denominator was 1033, with 33 exclusions. The reported rate was 7.6 percent. The event_dates field for this record listed 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02. These dates were recorded under the same READM-30 measure record for 2026-Q2.\n\nAcross the submitted records, the adverse event category captured was all-cause readmission within the READM-30 measure. The records provide period labels, numerator counts, denominator counts, exclusions, reported rates, and associated event dates. No additional stratification, patient-level details, location details, severity categories, preventability assessment, root-cause findings, or corrective actions were included in the submitted source records. Therefore, this summary is limited to the reported measure data and the event dates listed in the provided records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "fa12377ee9ed6622704cb906b85321d640f6d457a5aa58bd0fef5348f171a4b9",
+  "latency_ms": 8953,
+  "tokens_in": 494,
+  "tokens_out": 885,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:44:06"
+ }
+}

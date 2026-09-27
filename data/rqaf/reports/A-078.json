@@ -1,0 +1,78 @@
+{
+ "report_id": "A-078",
+ "type": "compliance_narrative",
+ "text": "For the reporting records provided, medication reconciliation completion at discharge (MED-REC) was reported for 2026-Q1. The measure used percent as the unit, with a numerator of 66 and a denominator of 265. The record also lists 2 exclusions and a reported rate of 25.1 percent. The event dates recorded for this measure were 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01.\n\nCentral line-associated bloodstream infection rate (CLABSI-01) was reported for 2026-Q2. The measure used per 1,000 line-days as the unit, with a numerator of 107 and a denominator of 1242. The record lists 66 exclusions and a reported rate of 90.99 per 1,000 line-days. The event dates recorded for this measure were 2026-01-11, 2026-04-01, 2026-08-22, 2026-10-02, and 2026-11-03.\n\nHospital-acquired pressure injury rate (HAPI-02) was reported for 2026-Q1. The measure used percent as the unit, with a numerator of 225 and a denominator of 1274. The record lists 32 exclusions and a reported rate of 18.12 percent. The event dates recorded for this measure were 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07.\n\nOverall, the compliance record includes 3 quality measures across the submitted data: medication reconciliation completion at discharge, central line-associated bloodstream infection rate, and hospital-acquired pressure injury rate. Each record contains a measure identifier, measure name, reporting period, numerator, denominator, exclusions, rate, unit, and event dates. This narrative is limited to the structured measure data provided and does not apply additional benchmarks, targets, or external interpretation.",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q2",
+   "numerator": 107,
+   "denominator": 1242,
+   "exclusions": 66,
+   "rate": 90.99,
+   "event_dates": [
+    "2026-01-11",
+    "2026-04-01",
+    "2026-08-22",
+    "2026-10-02",
+    "2026-11-03"
+   ]
+  },
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 225,
+   "denominator": 1274,
+   "exclusions": 32,
+   "rate": 18.12,
+   "event_dates": [
+    "2026-01-19",
+    "2026-05-17",
+    "2026-05-19",
+    "2026-06-27",
+    "2026-12-07"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F51",
+   "is_real": false,
+   "citation": "T. Lindqvist et al., \"Sepsis surveillance: a multicenter study,\" Annals of Simulated Quality, vol. 17, pp. 298-733, 2024, doi: 10.9999/synth.894827.",
+   "topic": "nurse staffing analytics"
+  }
+ ],
+ "gen_meta": {
+  "text": "For the reporting records provided, medication reconciliation completion at discharge (MED-REC) was reported for 2026-Q1. The measure used percent as the unit, with a numerator of 66 and a denominator of 265. The record also lists 2 exclusions and a reported rate of 25.1 percent. The event dates recorded for this measure were 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01.\n\nCentral line-associated bloodstream infection rate (CLABSI-01) was reported for 2026-Q2. The measure used per 1,000 line-days as the unit, with a numerator of 107 and a denominator of 1242. The record lists 66 exclusions and a reported rate of 90.99 per 1,000 line-days. The event dates recorded for this measure were 2026-01-11, 2026-04-01, 2026-08-22, 2026-10-02, and 2026-11-03.\n\nHospital-acquired pressure injury rate (HAPI-02) was reported for 2026-Q1. The measure used percent as the unit, with a numerator of 225 and a denominator of 1274. The record lists 32 exclusions and a reported rate of 18.12 percent. The event dates recorded for this measure were 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07.\n\nOverall, the compliance record includes 3 quality measures across the submitted data: medication reconciliation completion at discharge, central line-associated bloodstream infection rate, and hospital-acquired pressure injury rate. Each record contains a measure identifier, measure name, reporting period, numerator, denominator, exclusions, rate, unit, and event dates. This narrative is limited to the structured measure data provided and does not apply additional benchmarks, targets, or external interpretation.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "93a85d6a595ceba0158da6055473083bafdbccff08ecb4af3130719e0913c980",
+  "latency_ms": 8687,
+  "tokens_in": 565,
+  "tokens_out": 863,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:38:57"
+ }
+}

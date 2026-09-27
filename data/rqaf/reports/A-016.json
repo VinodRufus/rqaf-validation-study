@@ -1,0 +1,90 @@
+{
+ "report_id": "A-016",
+ "type": "measure_summary",
+ "text": "This measure summary describes the structured quality records provided for SEP-B1, CLABSI-01, and READM-30. The records report measure identifiers, measure names, units, periods, numerators, denominators, exclusions, rates, and listed event dates.\n\nFor SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the reported period is 2026-Q2 and the unit is percent. The numerator is 61, the denominator is 694, and exclusions are 39. The reported rate is 9.31 percent. The event_dates field lists 2026-02-27, 2026-03-03, 2026-04-25, 2026-09-24, and 2026-11-13.\n\nFor CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d the reported period is 2026-Q2 and the unit is per 1,000 line-days. The numerator is 107, the denominator is 1242, and exclusions are 66. The reported rate is 90.99 per 1,000 line-days. The event_dates field lists 2026-01-11, 2026-04-01, 2026-08-22, 2026-10-02, and 2026-11-03.\n\nFor READM-30, \u201c30-day all-cause readmission rate,\u201d the reported period is 2026-Q1 and the unit is percent. The numerator is 188, the denominator is 1325, and exclusions are 43. The reported rate is 14.66 percent. The event_dates field lists 2026-01-24, 2026-04-18, 2026-06-19, 2026-07-17, and 2026-11-21.\n\nAcross the records, SEP-B1 and CLABSI-01 are both reported for 2026-Q2, while READM-30 is reported for 2026-Q1. The reported units differ by measure: SEP-B1 and READM-30 are expressed as percent, while CLABSI-01 is expressed per 1,000 line-days. This summary is limited to the values contained in the supplied structured records.",
+ "source": [
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 61,
+   "denominator": 694,
+   "exclusions": 39,
+   "rate": 9.31,
+   "event_dates": [
+    "2026-02-27",
+    "2026-03-03",
+    "2026-04-25",
+    "2026-09-24",
+    "2026-11-13"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q2",
+   "numerator": 107,
+   "denominator": 1242,
+   "exclusions": 66,
+   "rate": 90.99,
+   "event_dates": [
+    "2026-01-11",
+    "2026-04-01",
+    "2026-08-22",
+    "2026-10-02",
+    "2026-11-03"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 188,
+   "denominator": 1325,
+   "exclusions": 43,
+   "rate": 14.66,
+   "event_dates": [
+    "2026-01-24",
+    "2026-04-18",
+    "2026-06-19",
+    "2026-07-17",
+    "2026-11-21"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F13",
+   "is_real": false,
+   "citation": "S. Almeida et al., \"Quality measure automation: a multicenter study,\" International Review of Fictitious Medicine, vol. 21, pp. 199-472, 2020, doi: 10.9999/synth.426850.",
+   "topic": "readmission prediction"
+  },
+  {
+   "ref_id": "F49",
+   "is_real": false,
+   "citation": "M. Okafor et al., \"Readmission prediction: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 4, pp. 215-585, 2025, doi: 10.9999/synth.629018.",
+   "topic": "sepsis surveillance"
+  },
+  {
+   "ref_id": "R5",
+   "is_real": true,
+   "citation": "WHO, Ethics and Governance of Artificial Intelligence for Health, 2021.",
+   "topic": "ai ethics health"
+  }
+ ],
+ "gen_meta": {
+  "text": "This measure summary describes the structured quality records provided for SEP-B1, CLABSI-01, and READM-30. The records report measure identifiers, measure names, units, periods, numerators, denominators, exclusions, rates, and listed event dates.\n\nFor SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the reported period is 2026-Q2 and the unit is percent. The numerator is 61, the denominator is 694, and exclusions are 39. The reported rate is 9.31 percent. The event_dates field lists 2026-02-27, 2026-03-03, 2026-04-25, 2026-09-24, and 2026-11-13.\n\nFor CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d the reported period is 2026-Q2 and the unit is per 1,000 line-days. The numerator is 107, the denominator is 1242, and exclusions are 66. The reported rate is 90.99 per 1,000 line-days. The event_dates field lists 2026-01-11, 2026-04-01, 2026-08-22, 2026-10-02, and 2026-11-03.\n\nFor READM-30, \u201c30-day all-cause readmission rate,\u201d the reported period is 2026-Q1 and the unit is percent. The numerator is 188, the denominator is 1325, and exclusions are 43. The reported rate is 14.66 percent. The event_dates field lists 2026-01-24, 2026-04-18, 2026-06-19, 2026-07-17, and 2026-11-21.\n\nAcross the records, SEP-B1 and CLABSI-01 are both reported for 2026-Q2, while READM-30 is reported for 2026-Q1. The reported units differ by measure: SEP-B1 and READM-30 are expressed as percent, while CLABSI-01 is expressed per 1,000 line-days. This summary is limited to the values contained in the supplied structured records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "1cc9d0124911ea5305afc5fc4bce9cfb5b77435e417d4901f5d7fc7e8c7ef260",
+  "latency_ms": 8638,
+  "tokens_in": 644,
+  "tokens_out": 882,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:29:38"
+ }
+}

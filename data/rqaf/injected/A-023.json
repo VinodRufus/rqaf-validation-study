@@ -1,0 +1,90 @@
+{
+ "report_id": "A-023",
+ "type": "adverse_event_summary",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q2",
+   "numerator": 107,
+   "denominator": 1242,
+   "exclusions": 66,
+   "rate": 90.99,
+   "event_dates": [
+    "2026-01-11",
+    "2026-04-01",
+    "2026-08-22",
+    "2026-10-02",
+    "2026-11-03"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  },
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 32,
+   "denominator": 307,
+   "exclusions": 5,
+   "rate": 10.6,
+   "event_dates": [
+    "2026-01-28",
+    "2026-05-07",
+    "2026-06-17",
+    "2026-08-19",
+    "2026-08-21"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "R4",
+   "is_real": true,
+   "citation": "NIST SP 800-207, Zero Trust Architecture, 2020.",
+   "topic": "zero trust"
+  },
+  {
+   "ref_id": "F50",
+   "is_real": false,
+   "citation": "T. Lindqvist et al., \"Sepsis surveillance: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 4, pp. 189-816, 2025, doi: 10.9999/synth.924556.",
+   "topic": "readmission prediction"
+  },
+  {
+   "ref_id": "F37",
+   "is_real": false,
+   "citation": "K. Watanabe et al., \"Readmission prediction: a multicenter study,\" Annals of Simulated Quality, vol. 24, pp. 2-876, 2021, doi: 10.9999/synth.991036.",
+   "topic": "infection control dashboards"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "232f052ae1d2fcf7cefd3113cd428daf12762b1f5c60ca577f13f95de7cda939",
+  "latency_ms": 9215,
+  "tokens_in": 644,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:30:42"
+ }
+}

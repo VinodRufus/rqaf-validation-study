@@ -1,0 +1,61 @@
+{
+ "report_id": "A-075",
+ "type": "compliance_narrative",
+ "text": "The structured compliance records identify SEP-B1 as \u201cSepsis bundle compliance within 3 hours,\u201d reported in percent for period 2026-Q2. For this measure, the numerator is 61, the denominator is 694, exclusions are 39, and the reported rate is 9.31 percent. The event dates listed for SEP-B1 are 2026-02-27, 2026-03-03, 2026-04-25, 2026-09-24, and 2026-11-13. These values are recorded as the compliance data for the sepsis bundle measure within the specified reporting period.\n\nThe records also identify MED-REC as \u201cMedication reconciliation completion at discharge,\u201d reported in percent for period 2026-Q1. For this measure, the numerator is 66, the denominator is 265, exclusions are 2, and the reported rate is 25.1 percent. The event dates listed for MED-REC are 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01. These values are recorded as the compliance data for medication reconciliation completion at discharge within the specified reporting period.\n\nAcross the supplied records, the compliance narrative is limited to the reported measure identifiers, measure names, units, periods, numerators, denominators, exclusions, rates, and event dates. SEP-B1 is associated with period 2026-Q2 and a reported rate of 9.31 percent. MED-REC is associated with period 2026-Q1 and a reported rate of 25.1 percent. No additional benchmarks, targets, causal factors, or performance interpretations are included in the provided structured records.",
+ "source": [
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 61,
+   "denominator": 694,
+   "exclusions": 39,
+   "rate": 9.31,
+   "event_dates": [
+    "2026-02-27",
+    "2026-03-03",
+    "2026-04-25",
+    "2026-09-24",
+    "2026-11-13"
+   ]
+  },
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F21",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Nurse staffing analytics: a multicenter study,\" Annals of Simulated Quality, vol. 36, pp. 330-658, 2019, doi: 10.9999/synth.448687.",
+   "topic": "nurse staffing analytics"
+  }
+ ],
+ "gen_meta": {
+  "text": "The structured compliance records identify SEP-B1 as \u201cSepsis bundle compliance within 3 hours,\u201d reported in percent for period 2026-Q2. For this measure, the numerator is 61, the denominator is 694, exclusions are 39, and the reported rate is 9.31 percent. The event dates listed for SEP-B1 are 2026-02-27, 2026-03-03, 2026-04-25, 2026-09-24, and 2026-11-13. These values are recorded as the compliance data for the sepsis bundle measure within the specified reporting period.\n\nThe records also identify MED-REC as \u201cMedication reconciliation completion at discharge,\u201d reported in percent for period 2026-Q1. For this measure, the numerator is 66, the denominator is 265, exclusions are 2, and the reported rate is 25.1 percent. The event dates listed for MED-REC are 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01. These values are recorded as the compliance data for medication reconciliation completion at discharge within the specified reporting period.\n\nAcross the supplied records, the compliance narrative is limited to the reported measure identifiers, measure names, units, periods, numerators, denominators, exclusions, rates, and event dates. SEP-B1 is associated with period 2026-Q2 and a reported rate of 9.31 percent. MED-REC is associated with period 2026-Q1 and a reported rate of 25.1 percent. No additional benchmarks, targets, causal factors, or performance interpretations are included in the provided structured records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "8b83773d9c12fe2d244bdf4264e18758199075262ac46f529f4f2619f9d188cd",
+  "latency_ms": 8853,
+  "tokens_in": 429,
+  "tokens_out": 861,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:38:30"
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "report_id": "A-041",
+ "injections": [
+  {
+   "type": "hallucinated_claim",
+   "text": "An independent registry review confirmed these findings across all sister facilities.",
+   "severity": "low"
+  }
+ ],
+ "gold_disposition": "review",
+ "has_critical": false
+}

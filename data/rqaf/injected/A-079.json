@@ -1,0 +1,61 @@
+{
+ "report_id": "A-079",
+ "type": "measure_summary",
+ "text": "For measure READM-30, the reported measure name is 30-day all-cause readmission rate. The unit is percent, and the reporting period is 2026-Q2. The numerator is 76, the denominator is 1033, and exclusions are 33. The reported rate is 7.6 percent. The source record lists the following event dates for this measure: 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02.\n\nFor measure HAPI-02, the reported measure name is Hospital-acquired pressure injury rate. The unit is percent, and the reporting period is 2026-Q1. The numerator is 225, the denominator is 1274, and exclusions are 32. The reported rate is 18.12 percent. The source record lists the following event dates for this measure: 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07.\n\nTogether, the provided records describe measure-level results for READM-30 and HAPI-02, including the measure identifiers, measure names, reporting periods, numerator values, denominator values, exclusion counts, reported rates, units, and listed event dates. The records do not provide additional stratification fields, facility identifiers, patient-level details, benchmark values, targets, confidence intervals, or explanatory notes. Therefore, this narrative is limited to the reported measure results and does not characterize performance as favorable or unfavorable, does not infer causes for the reported rates, and does not compare either measure with any external standard or prior period.",
+ "source": [
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  },
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 225,
+   "denominator": 1274,
+   "exclusions": 32,
+   "rate": 18.12,
+   "event_dates": [
+    "2026-01-19",
+    "2026-05-17",
+    "2026-05-19",
+    "2026-06-27",
+    "2026-12-07"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F29",
+   "is_real": false,
+   "citation": "R. Deshmukh et al., \"Clinical audit sampling: a multicenter study,\" Annals of Simulated Quality, vol. 37, pp. 358-499, 2020, doi: 10.9999/synth.177474.",
+   "topic": "clinical audit sampling"
+  }
+ ],
+ "gen_meta": {
+  "text": "For measure READM-30, the reported measure name is 30-day all-cause readmission rate. The unit is percent, and the reporting period is 2026-Q2. The numerator is 76, the denominator is 1033, and exclusions are 33. The reported rate is 7.6 percent. The source record lists the following event dates for this measure: 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02.\n\nFor measure HAPI-02, the reported measure name is Hospital-acquired pressure injury rate. The unit is percent, and the reporting period is 2026-Q1. The numerator is 225, the denominator is 1274, and exclusions are 32. The reported rate is 18.12 percent. The source record lists the following event dates for this measure: 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07.\n\nTogether, the provided records describe measure-level results for READM-30 and HAPI-02, including the measure identifiers, measure names, reporting periods, numerator values, denominator values, exclusion counts, reported rates, units, and listed event dates. The records do not provide additional stratification fields, facility identifiers, patient-level details, benchmark values, targets, confidence intervals, or explanatory notes. Therefore, this narrative is limited to the reported measure results and does not characterize performance as favorable or unfavorable, does not infer causes for the reported rates, and does not compare either measure with any external standard or prior period.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "19b2a7254b65044e09ece2483de69ab09a185b0c044a89dd74500e6e564dbb78",
+  "latency_ms": 8005,
+  "tokens_in": 434,
+  "tokens_out": 881,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:39:05"
+ }
+}

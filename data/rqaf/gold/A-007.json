@@ -1,0 +1,18 @@
+{
+ "report_id": "A-007",
+ "injections": [
+  {
+   "type": "unsupported_citation",
+   "text": "Prior work has established the optimal threshold for this measure [F26].",
+   "severity": "low"
+  },
+  {
+   "type": "invalid_citation",
+   "original": "[F26]",
+   "injected": "[F999]",
+   "severity": "low"
+  }
+ ],
+ "gold_disposition": "review",
+ "has_critical": false
+}

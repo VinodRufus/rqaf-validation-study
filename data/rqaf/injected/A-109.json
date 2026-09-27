@@ -1,0 +1,73 @@
+{
+ "report_id": "A-109",
+ "type": "measure_summary",
+ "text": "For the 2026-Q2 reporting period, measure READM-30, \u201c30-day all-cause readmission rate,\u201d is reported in percent. The structured record lists a numerator of 76, a denominator of 1033, exclusions of 33, and a rate of 7.6 percent. The event dates included in the record are 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02. Available readmission prediction references include multicenter study publications by Lindqvist et al. [F999] and Kowalczyk et al. [F52].\n\nFor the 2026-Q1 reporting period, measure CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d is reported per 1,000 line-days. The structured record lists a numerator of 63, a denominator of 887, exclusions of 37, and a rate of 74.12 per 1,000 line-days. The event dates included in the record are 2026-01-26, 2026-04-14, 2026-06-26, 2026-08-07, and 2026-11-02.\n\nTogether, the source records provide two quality measure summaries with distinct measure identifiers, names, units, reporting periods, numerators, denominators, exclusions, rates, and event-date lists. READM-30 is expressed as a percent, while CLABSI-01 is expressed per 1,000 line-days. The available reference list also includes a nurse staffing analytics multicenter study by Almeida et al. [F19]. No benchmark, target, threshold, peer comparison, risk adjustment factor, or causal explanation is provided in the source records. Prior work has established the optimal threshold for this measure [F19]. Staff survey results showed a 40 percent increase in reporting confidence over the period.",
+ "source": [
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q1",
+   "numerator": 63,
+   "denominator": 887,
+   "exclusions": 37,
+   "rate": 74.12,
+   "event_dates": [
+    "2026-01-26",
+    "2026-04-14",
+    "2026-06-26",
+    "2026-08-07",
+    "2026-11-02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F19",
+   "is_real": false,
+   "citation": "S. Almeida et al., \"Nurse staffing analytics: a multicenter study,\" International Review of Fictitious Medicine, vol. 20, pp. 26-450, 2025, doi: 10.9999/synth.137685.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F2",
+   "is_real": false,
+   "citation": "T. Lindqvist et al., \"Readmission prediction: a multicenter study,\" International Review of Fictitious Medicine, vol. 5, pp. 289-699, 2018, doi: 10.9999/synth.477924.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F52",
+   "is_real": false,
+   "citation": "D. Kowalczyk et al., \"Readmission prediction: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 23, pp. 388-721, 2022, doi: 10.9999/synth.395449.",
+   "topic": "sepsis surveillance"
+  }
+ ],
+ "gen_meta": {
+  "text": "For the 2026-Q2 reporting period, measure READM-30, \u201c30-day all-cause readmission rate,\u201d is reported in percent. The structured record lists a numerator of 76, a denominator of 1033, exclusions of 33, and a rate of 7.6 percent. The event dates included in the record are 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02. Available readmission prediction references include multicenter study publications by Lindqvist et al. [F2] and Kowalczyk et al. [F52].\n\nFor the 2026-Q1 reporting period, measure CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d is reported per 1,000 line-days. The structured record lists a numerator of 63, a denominator of 887, exclusions of 37, and a rate of 74.12 per 1,000 line-days. The event dates included in the record are 2026-01-26, 2026-04-14, 2026-06-26, 2026-08-07, and 2026-11-02.\n\nTogether, the source records provide two quality measure summaries with distinct measure identifiers, names, units, reporting periods, numerators, denominators, exclusions, rates, and event-date lists. READM-30 is expressed as a percent, while CLABSI-01 is expressed per 1,000 line-days. The available reference list also includes a nurse staffing analytics multicenter study by Almeida et al. [F19]. No benchmark, target, threshold, peer comparison, risk adjustment factor, or causal explanation is provided in the source records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "87c5319e9ed6eba404b25f98a3e5e959268fd611aac67c51346d5f2086f6e74f",
+  "latency_ms": 8773,
+  "tokens_in": 555,
+  "tokens_out": 895,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:43:31"
+ }
+}

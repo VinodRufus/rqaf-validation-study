@@ -1,0 +1,67 @@
+{
+ "report_id": "A-030",
+ "type": "compliance_narrative",
+ "text": "For the 2026-Q2 compliance record, measure CLABSI-01 is reported as the \u201cCentral line-associated bloodstream infection rate.\u201d The unit is per 1,000 line-days. The reported numerator is 107, the denominator is 1242, and exclusions are 66. The reported rate is 90.99 per 1,000 line-days. The event dates listed for this measure are 2026-01-11, 2026-04-01, 2026-08-22, 2026-10-02, and 2026-11-03. These values are presented as the submitted structured record for CLABSI-01, without additional adjustment or interpretation.\n\nFor the 2026-Q2 compliance record, measure MED-REC is reported as \u201cMedication reconciliation completion at discharge.\u201d The unit is percent. The reported numerator is 32, the denominator is 307, and exclusions are 5. The reported rate is 10.6 percent. The event dates listed for this measure are 2026-01-28, 2026-05-07, 2026-06-17, 2026-08-19, and 2026-08-21. These values are presented as the submitted structured record for MED-REC, without additional adjustment or interpretation.\n\nTogether, the records provide measure identifiers, measure names, units, reporting period, numerator values, denominator values, exclusions, calculated rates, and listed event dates for the submitted compliance narrative. The available reference list includes sources on sepsis surveillance and clinical audit sampling, which are relevant reference categories for quality reporting documentation [F43], [F39]. No additional measure thresholds, benchmarks, targets, validation findings, or performance comparisons are included in the supplied source records.",
+ "source": [
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q2",
+   "numerator": 107,
+   "denominator": 1242,
+   "exclusions": 66,
+   "rate": 90.99,
+   "event_dates": [
+    "2026-01-11",
+    "2026-04-01",
+    "2026-08-22",
+    "2026-10-02",
+    "2026-11-03"
+   ]
+  },
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 32,
+   "denominator": 307,
+   "exclusions": 5,
+   "rate": 10.6,
+   "event_dates": [
+    "2026-01-28",
+    "2026-05-07",
+    "2026-06-17",
+    "2026-08-19",
+    "2026-08-21"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F43",
+   "is_real": false,
+   "citation": "T. Lindqvist et al., \"Sepsis surveillance: a multicenter study,\" Annals of Simulated Quality, vol. 23, pp. 49-768, 2021, doi: 10.9999/synth.266638.",
+   "topic": "nurse staffing analytics"
+  },
+  {
+   "ref_id": "F39",
+   "is_real": false,
+   "citation": "D. Kowalczyk et al., \"Clinical audit sampling: a multicenter study,\" Annals of Simulated Quality, vol. 34, pp. 241-438, 2023, doi: 10.9999/synth.269876.",
+   "topic": "infection control dashboards"
+  }
+ ],
+ "gen_meta": {
+  "text": "For the 2026-Q2 compliance record, measure CLABSI-01 is reported as the \u201cCentral line-associated bloodstream infection rate.\u201d The unit is per 1,000 line-days. The reported numerator is 107, the denominator is 1242, and exclusions are 66. The reported rate is 90.99 per 1,000 line-days. The event dates listed for this measure are 2026-01-11, 2026-04-01, 2026-08-22, 2026-10-02, and 2026-11-03. These values are presented as the submitted structured record for CLABSI-01, without additional adjustment or interpretation.\n\nFor the 2026-Q2 compliance record, measure MED-REC is reported as \u201cMedication reconciliation completion at discharge.\u201d The unit is percent. The reported numerator is 32, the denominator is 307, and exclusions are 5. The reported rate is 10.6 percent. The event dates listed for this measure are 2026-01-28, 2026-05-07, 2026-06-17, 2026-08-19, and 2026-08-21. These values are presented as the submitted structured record for MED-REC, without additional adjustment or interpretation.\n\nTogether, the records provide measure identifiers, measure names, units, reporting period, numerator values, denominator values, exclusions, calculated rates, and listed event dates for the submitted compliance narrative. The available reference list includes sources on sepsis surveillance and clinical audit sampling, which are relevant reference categories for quality reporting documentation [F43], [F39]. No additional measure thresholds, benchmarks, targets, validation findings, or performance comparisons are included in the supplied source records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "c15994f885785b6e59bd8d746421865160139c54f33f3b7d7cc29ba6a6d5d36b",
+  "latency_ms": 9279,
+  "tokens_in": 493,
+  "tokens_out": 886,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:31:46"
+ }
+}

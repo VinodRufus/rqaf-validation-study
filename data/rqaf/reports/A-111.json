@@ -1,0 +1,61 @@
+{
+ "report_id": "A-111",
+ "type": "compliance_narrative",
+ "text": "Compliance narrative for the provided quality records:\n\nFor measure MED-REC, \u201cMedication reconciliation completion at discharge,\u201d the reported unit is percent and the reporting period is 2026-Q1. The source record lists a numerator of 66, a denominator of 265, and exclusions of 2. The reported rate is 25.1 percent. The event dates associated with this measure are 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01. Based on the structured record, the compliance statement for this measure is limited to the reported completion count, eligible population count, exclusions, rate, period, and event dates. No target threshold or benchmark is included in the provided source record.\n\nFor measure READM-30, \u201c30-day all-cause readmission rate,\u201d the reported unit is percent and the reporting period is 2026-Q2. The source record lists a numerator of 76, a denominator of 1033, and exclusions of 33. The reported rate is 7.6 percent. The event dates associated with this measure are 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02. The available reference list includes a readmission-related citation [F2]. Based on the structured record, the compliance statement for this measure is limited to the reported readmission count, eligible population count, exclusions, rate, period, and event dates. No target threshold or benchmark is included in the provided source record.\n\nAcross the provided records, the reported compliance data consist of two measures: MED-REC and READM-30. Each record includes a measure identifier, measure name, unit, reporting period, numerator, denominator, exclusions, rate, and event dates. This narrative does not apply additional assumptions, benchmarks, comparisons, or interpretations beyond the supplied structured records and the available reference list.",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F2",
+   "is_real": false,
+   "citation": "T. Lindqvist et al., \"Readmission prediction: a multicenter study,\" International Review of Fictitious Medicine, vol. 5, pp. 289-699, 2018, doi: 10.9999/synth.477924.",
+   "topic": "clinical audit sampling"
+  }
+ ],
+ "gen_meta": {
+  "text": "Compliance narrative for the provided quality records:\n\nFor measure MED-REC, \u201cMedication reconciliation completion at discharge,\u201d the reported unit is percent and the reporting period is 2026-Q1. The source record lists a numerator of 66, a denominator of 265, and exclusions of 2. The reported rate is 25.1 percent. The event dates associated with this measure are 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01. Based on the structured record, the compliance statement for this measure is limited to the reported completion count, eligible population count, exclusions, rate, period, and event dates. No target threshold or benchmark is included in the provided source record.\n\nFor measure READM-30, \u201c30-day all-cause readmission rate,\u201d the reported unit is percent and the reporting period is 2026-Q2. The source record lists a numerator of 76, a denominator of 1033, and exclusions of 33. The reported rate is 7.6 percent. The event dates associated with this measure are 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02. The available reference list includes a readmission-related citation [F2]. Based on the structured record, the compliance statement for this measure is limited to the reported readmission count, eligible population count, exclusions, rate, period, and event dates. No target threshold or benchmark is included in the provided source record.\n\nAcross the provided records, the reported compliance data consist of two measures: MED-REC and READM-30. Each record includes a measure identifier, measure name, unit, reporting period, numerator, denominator, exclusions, rate, and event dates. This narrative does not apply additional assumptions, benchmarks, comparisons, or interpretations beyond the supplied structured records and the available reference list.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "d3dcb5fd428b1df57a8fc91afb9d45aef79abbcfc24384cad19388ba25a7bf43",
+  "latency_ms": 8566,
+  "tokens_in": 432,
+  "tokens_out": 895,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:43:48"
+ }
+}

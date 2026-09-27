@@ -1,0 +1,73 @@
+{
+ "report_id": "A-046",
+ "type": "measure_summary",
+ "text": "For measure SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the reported period is 2026-Q1 and the unit is percent. The source record lists a numerator of 115, a denominator of 535, 41 exclusions, and a reported rate of 23.28 percent. The event_dates field for this measure includes 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19. These values are presented as reported in the source record.\n\nFor measure READM-30, \u201c30-day all-cause readmission rate,\u201d the reported period is 2026-Q2 and the unit is percent. The source record lists a numerator of 76, a denominator of 1033, 33 exclusions, and a reported rate of 7.6 percent. The event_dates field for this measure includes 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02. These values are also presented as reported in the source record.\n\nTogether, the records describe two quality measures for 2026 reporting periods. SEP-B1 addresses compliance with a sepsis bundle within 3 hours, while READM-30 addresses 30-day all-cause readmissions. Each record provides the measure identifier, measure name, unit, reporting period, numerator, denominator, exclusions, reported rate, and listed event dates. No benchmark, target, prior-period value, statistical test, or explanatory factor is provided in the source records. Therefore, this summary does not include trend assessment, performance interpretation, causal explanation, or comparison with external standards.",
+ "source": [
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 115,
+   "denominator": 535,
+   "exclusions": 41,
+   "rate": 23.28,
+   "event_dates": [
+    "2026-02-14",
+    "2026-04-08",
+    "2026-08-18",
+    "2026-09-28",
+    "2026-10-19"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F39",
+   "is_real": false,
+   "citation": "D. Kowalczyk et al., \"Clinical audit sampling: a multicenter study,\" Annals of Simulated Quality, vol. 34, pp. 241-438, 2023, doi: 10.9999/synth.269876.",
+   "topic": "infection control dashboards"
+  },
+  {
+   "ref_id": "F19",
+   "is_real": false,
+   "citation": "S. Almeida et al., \"Nurse staffing analytics: a multicenter study,\" International Review of Fictitious Medicine, vol. 20, pp. 26-450, 2025, doi: 10.9999/synth.137685.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F18",
+   "is_real": false,
+   "citation": "P. Novak et al., \"Quality measure automation: a multicenter study,\" Annals of Simulated Quality, vol. 14, pp. 344-620, 2018, doi: 10.9999/synth.347686.",
+   "topic": "nurse staffing analytics"
+  }
+ ],
+ "gen_meta": {
+  "text": "For measure SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the reported period is 2026-Q1 and the unit is percent. The source record lists a numerator of 115, a denominator of 535, 41 exclusions, and a reported rate of 23.28 percent. The event_dates field for this measure includes 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19. These values are presented as reported in the source record.\n\nFor measure READM-30, \u201c30-day all-cause readmission rate,\u201d the reported period is 2026-Q2 and the unit is percent. The source record lists a numerator of 76, a denominator of 1033, 33 exclusions, and a reported rate of 7.6 percent. The event_dates field for this measure includes 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02. These values are also presented as reported in the source record.\n\nTogether, the records describe two quality measures for 2026 reporting periods. SEP-B1 addresses compliance with a sepsis bundle within 3 hours, while READM-30 addresses 30-day all-cause readmissions. Each record provides the measure identifier, measure name, unit, reporting period, numerator, denominator, exclusions, reported rate, and listed event dates. No benchmark, target, prior-period value, statistical test, or explanatory factor is provided in the source records. Therefore, this summary does not include trend assessment, performance interpretation, causal explanation, or comparison with external standards.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "6cbcd2b7cf5611a32c6e7f00508e7968316b26ece090f866c9336f1f9dd3f5c6",
+  "latency_ms": 8815,
+  "tokens_in": 546,
+  "tokens_out": 886,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:34:08"
+ }
+}

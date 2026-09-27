@@ -1,0 +1,78 @@
+{
+ "report_id": "A-054",
+ "type": "compliance_narrative",
+ "text": " Prior work has established the optimal threshold for this measure [F999]. Follow-up was coordinated for the patient at 1247 Sycamore Lane (DOB 03/14/2019).",
+ "source": [
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 225,
+   "denominator": 1274,
+   "exclusions": 32,
+   "rate": 18.12,
+   "event_dates": [
+    "2026-01-19",
+    "2026-05-17",
+    "2026-05-19",
+    "2026-06-27",
+    "2026-12-07"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 61,
+   "denominator": 694,
+   "exclusions": 39,
+   "rate": 9.31,
+   "event_dates": [
+    "2026-02-27",
+    "2026-03-03",
+    "2026-04-25",
+    "2026-09-24",
+    "2026-11-13"
+   ]
+  },
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F26",
+   "is_real": false,
+   "citation": "M. Okafor et al., \"Nurse staffing analytics: a multicenter study,\" Annals of Simulated Quality, vol. 38, pp. 138-789, 2021, doi: 10.9999/synth.404576.",
+   "topic": "clinical audit sampling"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "45874ed6e0685fef2815916f8f1d63bbcde3131ed2424cdc843bff7bc1ccb608",
+  "latency_ms": 9312,
+  "tokens_in": 559,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:35:19"
+ }
+}

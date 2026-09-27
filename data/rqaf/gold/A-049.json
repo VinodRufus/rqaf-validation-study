@@ -1,0 +1,12 @@
+{
+ "report_id": "A-049",
+ "injections": [
+  {
+   "type": "omitted_required_fact",
+   "removed": "For the 2026-Q2 reporting period, the MED-REC measure, \u201cMedication reconciliation completion at discharge,\u201d is reported as a percent measure with a numerator of 32, a denominator of 307, 5 exclusions, and a rate of 10.6 percent.",
+   "severity": "critical"
+  }
+ ],
+ "gold_disposition": "review",
+ "has_critical": true
+}

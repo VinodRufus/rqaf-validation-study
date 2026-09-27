@@ -1,0 +1,23 @@
+{
+ "report_id": "A-010",
+ "injections": [
+  {
+   "type": "privacy_leak",
+   "text": "Patient record MRN 84921736 was representative of the excluded cases.",
+   "severity": "critical"
+  },
+  {
+   "type": "unsupported_citation",
+   "text": "Prior work has established the optimal threshold for this measure [F22].",
+   "severity": "low"
+  },
+  {
+   "type": "invalid_citation",
+   "original": "[F22]",
+   "injected": "[F999]",
+   "severity": "low"
+  }
+ ],
+ "gold_disposition": "reject",
+ "has_critical": true
+}

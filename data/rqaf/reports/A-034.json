@@ -1,0 +1,61 @@
+{
+ "report_id": "A-034",
+ "type": "measure_summary",
+ "text": "For the 2026-Q1 reporting period, measure HAPI-02, Hospital-acquired pressure injury rate, is reported in percent. The source record lists a numerator of 225, a denominator of 1274, and 32 exclusions. The reported rate is 18.12 percent. The event dates recorded for this measure are 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07.\n\nFor the same 2026-Q1 reporting period, measure CLABSI-01, Central line-associated bloodstream infection rate, is reported per 1,000 line-days. The source record lists a numerator of 63, a denominator of 887, and 37 exclusions. The reported rate is 74.12 per 1,000 line-days. The event dates recorded for this measure are 2026-01-26, 2026-04-14, 2026-06-26, 2026-08-07, and 2026-11-02.\n\nTogether, these records present the reported measure identifiers, measure names, reporting period, units, numerators, denominators, exclusions, calculated rates, and listed event dates for HAPI-02 and CLABSI-01. No benchmark, target, trend, or comparison value is included in the provided source records, so none is stated here. The narrative is limited to the structured values supplied for the two quality measures and does not add interpretation beyond the recorded measure data.",
+ "source": [
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 225,
+   "denominator": 1274,
+   "exclusions": 32,
+   "rate": 18.12,
+   "event_dates": [
+    "2026-01-19",
+    "2026-05-17",
+    "2026-05-19",
+    "2026-06-27",
+    "2026-12-07"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q1",
+   "numerator": 63,
+   "denominator": 887,
+   "exclusions": 37,
+   "rate": 74.12,
+   "event_dates": [
+    "2026-01-26",
+    "2026-04-14",
+    "2026-06-26",
+    "2026-08-07",
+    "2026-11-02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F25",
+   "is_real": false,
+   "citation": "R. Deshmukh et al., \"Nurse staffing analytics: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 21, pp. 260-846, 2022, doi: 10.9999/synth.235367.",
+   "topic": "clinical audit sampling"
+  }
+ ],
+ "gen_meta": {
+  "text": "For the 2026-Q1 reporting period, measure HAPI-02, Hospital-acquired pressure injury rate, is reported in percent. The source record lists a numerator of 225, a denominator of 1274, and 32 exclusions. The reported rate is 18.12 percent. The event dates recorded for this measure are 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07.\n\nFor the same 2026-Q1 reporting period, measure CLABSI-01, Central line-associated bloodstream infection rate, is reported per 1,000 line-days. The source record lists a numerator of 63, a denominator of 887, and 37 exclusions. The reported rate is 74.12 per 1,000 line-days. The event dates recorded for this measure are 2026-01-26, 2026-04-14, 2026-06-26, 2026-08-07, and 2026-11-02.\n\nTogether, these records present the reported measure identifiers, measure names, reporting period, units, numerators, denominators, exclusions, calculated rates, and listed event dates for HAPI-02 and CLABSI-01. No benchmark, target, trend, or comparison value is included in the provided source records, so none is stated here. The narrative is limited to the structured values supplied for the two quality measures and does not add interpretation beyond the recorded measure data.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "946b5c9e3825b8c5b4a4c5aac264a33e6e5d6d83e852f13a406719282396cc6f",
+  "latency_ms": 8943,
+  "tokens_in": 439,
+  "tokens_out": 845,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:32:22"
+ }
+}

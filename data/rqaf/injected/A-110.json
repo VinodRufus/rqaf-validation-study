@@ -1,0 +1,90 @@
+{
+ "report_id": "A-110",
+ "type": "adverse_event_summary",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q1",
+   "numerator": 63,
+   "denominator": 887,
+   "exclusions": 37,
+   "rate": 74.12,
+   "event_dates": [
+    "2026-01-26",
+    "2026-04-14",
+    "2026-06-26",
+    "2026-08-07",
+    "2026-11-02"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q2",
+   "numerator": 107,
+   "denominator": 1242,
+   "exclusions": 66,
+   "rate": 90.99,
+   "event_dates": [
+    "2026-01-11",
+    "2026-04-01",
+    "2026-08-22",
+    "2026-10-02",
+    "2026-11-03"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F54",
+   "is_real": false,
+   "citation": "T. Lindqvist et al., \"Sepsis surveillance: a multicenter study,\" International Review of Fictitious Medicine, vol. 9, pp. 14-617, 2020, doi: 10.9999/synth.572914.",
+   "topic": "quality measure automation"
+  },
+  {
+   "ref_id": "F25",
+   "is_real": false,
+   "citation": "R. Deshmukh et al., \"Nurse staffing analytics: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 21, pp. 260-846, 2022, doi: 10.9999/synth.235367.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F15",
+   "is_real": false,
+   "citation": "P. Novak et al., \"Clinical audit sampling: a multicenter study,\" International Review of Fictitious Medicine, vol. 25, pp. 391-539, 2025, doi: 10.9999/synth.722466.",
+   "topic": "infection control dashboards"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "0a00df6b28d65ced096a65b6f9749e2bb5093a29b489b3c5345458b4f3940466",
+  "latency_ms": 8949,
+  "tokens_in": 687,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:43:40"
+ }
+}

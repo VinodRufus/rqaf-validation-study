@@ -1,0 +1,25 @@
+{
+ "report_id": "A-026",
+ "injections": [
+  {
+   "type": "omitted_required_fact",
+   "removed": "For SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the record reports 115 compliant cases out of a denominator of 535, with 41 exclusions.",
+   "severity": "critical"
+  },
+  {
+   "type": "hallucinated_claim",
+   "text": "Staff survey results showed a 40 percent increase in reporting confidence over the period.",
+   "severity": "low"
+  },
+  {
+   "type": "contradicted_claim",
+   "field": "numerator",
+   "measure_id": "READM-30",
+   "original": 188,
+   "injected": 192,
+   "severity": "critical"
+  }
+ ],
+ "gold_disposition": "reject",
+ "has_critical": true
+}

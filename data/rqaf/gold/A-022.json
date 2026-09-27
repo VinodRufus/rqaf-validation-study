@@ -1,0 +1,21 @@
+{
+ "report_id": "A-022",
+ "injections": [
+  {
+   "type": "contradicted_claim",
+   "field": "numerator",
+   "measure_id": "SEP-B1",
+   "original": 115,
+   "injected": 121,
+   "severity": "critical"
+  },
+  {
+   "type": "invalid_citation",
+   "original": "[F43]",
+   "injected": "[F999]",
+   "severity": "low"
+  }
+ ],
+ "gold_disposition": "reject",
+ "has_critical": true
+}

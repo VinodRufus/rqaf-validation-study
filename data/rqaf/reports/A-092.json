@@ -1,0 +1,67 @@
+{
+ "report_id": "A-092",
+ "type": "adverse_event_summary",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 115,
+   "denominator": 535,
+   "exclusions": 41,
+   "rate": 23.28,
+   "event_dates": [
+    "2026-02-14",
+    "2026-04-08",
+    "2026-08-18",
+    "2026-09-28",
+    "2026-10-19"
+   ]
+  },
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F55",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Infection control dashboards: a multicenter study,\" International Review of Fictitious Medicine, vol. 32, pp. 105-687, 2020, doi: 10.9999/synth.155888.",
+   "topic": "sepsis surveillance"
+  },
+  {
+   "ref_id": "R4",
+   "is_real": true,
+   "citation": "NIST SP 800-207, Zero Trust Architecture, 2020.",
+   "topic": "zero trust"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "80950ea91edd6931cac9e93c1e6d3ad75398dd6b5380d3fc2ab0b7f9838b6925",
+  "latency_ms": 9376,
+  "tokens_in": 450,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:41:02"
+ }
+}

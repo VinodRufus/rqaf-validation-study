@@ -1,0 +1,17 @@
+{
+ "report_id": "A-048",
+ "injections": [
+  {
+   "type": "hallucinated_claim",
+   "text": "The improvement reflects the new triage protocol introduced by the quality committee.",
+   "severity": "low"
+  },
+  {
+   "type": "unsupported_citation",
+   "text": "Prior work has established the optimal threshold for this measure [F48].",
+   "severity": "low"
+  }
+ ],
+ "gold_disposition": "review",
+ "has_critical": false
+}

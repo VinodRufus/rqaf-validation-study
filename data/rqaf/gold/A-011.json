@@ -1,0 +1,15 @@
+{
+ "report_id": "A-011",
+ "injections": [
+  {
+   "type": "contradicted_claim",
+   "field": "numerator",
+   "measure_id": "CLABSI-01",
+   "original": 63,
+   "injected": 69,
+   "severity": "critical"
+  }
+ ],
+ "gold_disposition": "reject",
+ "has_critical": true
+}

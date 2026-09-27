@@ -1,0 +1,78 @@
+{
+ "report_id": "A-068",
+ "type": "adverse_event_summary",
+ "text": "This adverse event summary is based on the provided structured quality records for three measures.\n\nFor medication reconciliation completion at discharge (MED-REC), the reporting period was 2026-Q1. The measure was reported as a percent, with numerator 66, denominator 265, exclusions 2, and rate 25.1. The event dates listed for this measure were 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01.\n\nFor hospital-acquired pressure injury rate (HAPI-02), the reporting period was 2026-Q2. The measure was reported as a percent, with numerator 41, denominator 210, exclusions 15, and rate 21.03. The event dates listed for this measure were 2026-01-24, 2026-07-04, 2026-07-19, 2026-09-18, and 2026-11-09.\n\nFor sepsis bundle compliance within 3 hours (SEP-B1), the reporting period was 2026-Q2. The measure was reported as a percent, with numerator 61, denominator 694, exclusions 39, and rate 9.31. The event dates listed for this measure were 2026-02-27, 2026-03-03, 2026-04-25, 2026-09-24, and 2026-11-13.\n\nAcross the source records, each measure includes a numerator, denominator, exclusion count, rate, reporting period, unit, and associated event date list. The medication reconciliation record is assigned to 2026-Q1, while the hospital-acquired pressure injury and sepsis bundle compliance records are assigned to 2026-Q2. The documented rates are 25.1 for MED-REC, 21.03 for HAPI-02, and 9.31 for SEP-B1, each using percent as the unit. No additional causal factors, harm severity levels, patient characteristics, or corrective actions were included in the structured source records.",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  },
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 41,
+   "denominator": 210,
+   "exclusions": 15,
+   "rate": 21.03,
+   "event_dates": [
+    "2026-01-24",
+    "2026-07-04",
+    "2026-07-19",
+    "2026-09-18",
+    "2026-11-09"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 61,
+   "denominator": 694,
+   "exclusions": 39,
+   "rate": 9.31,
+   "event_dates": [
+    "2026-02-27",
+    "2026-03-03",
+    "2026-04-25",
+    "2026-09-24",
+    "2026-11-13"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F32",
+   "is_real": false,
+   "citation": "H. Bergstrom et al., \"Nurse staffing analytics: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 9, pp. 212-752, 2024, doi: 10.9999/synth.680136.",
+   "topic": "quality measure automation"
+  }
+ ],
+ "gen_meta": {
+  "text": "This adverse event summary is based on the provided structured quality records for three measures.\n\nFor medication reconciliation completion at discharge (MED-REC), the reporting period was 2026-Q1. The measure was reported as a percent, with numerator 66, denominator 265, exclusions 2, and rate 25.1. The event dates listed for this measure were 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01.\n\nFor hospital-acquired pressure injury rate (HAPI-02), the reporting period was 2026-Q2. The measure was reported as a percent, with numerator 41, denominator 210, exclusions 15, and rate 21.03. The event dates listed for this measure were 2026-01-24, 2026-07-04, 2026-07-19, 2026-09-18, and 2026-11-09.\n\nFor sepsis bundle compliance within 3 hours (SEP-B1), the reporting period was 2026-Q2. The measure was reported as a percent, with numerator 61, denominator 694, exclusions 39, and rate 9.31. The event dates listed for this measure were 2026-02-27, 2026-03-03, 2026-04-25, 2026-09-24, and 2026-11-13.\n\nAcross the source records, each measure includes a numerator, denominator, exclusion count, rate, reporting period, unit, and associated event date list. The medication reconciliation record is assigned to 2026-Q1, while the hospital-acquired pressure injury and sepsis bundle compliance records are assigned to 2026-Q2. The documented rates are 25.1 for MED-REC, 21.03 for HAPI-02, and 9.31 for SEP-B1, each using percent as the unit. No additional causal factors, harm severity levels, patient characteristics, or corrective actions were included in the structured source records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "890fbbacb18c1167a72fcad83fc91dfc4f5c54d2ac212ab8248580f00b1409bf",
+  "latency_ms": 8599,
+  "tokens_in": 558,
+  "tokens_out": 892,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:37:27"
+ }
+}

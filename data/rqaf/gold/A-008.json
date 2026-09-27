@@ -1,0 +1,17 @@
+{
+ "report_id": "A-008",
+ "injections": [
+  {
+   "type": "hallucinated_claim",
+   "text": "Staff survey results showed a 40 percent increase in reporting confidence over the period.",
+   "severity": "low"
+  },
+  {
+   "type": "omitted_required_fact",
+   "removed": "The numerator was 188, the denominator was 1325, and exclusions were 43.",
+   "severity": "critical"
+  }
+ ],
+ "gold_disposition": "review",
+ "has_critical": true
+}

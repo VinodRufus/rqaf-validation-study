@@ -1,0 +1,67 @@
+{
+ "report_id": "A-089",
+ "type": "adverse_event_summary",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  },
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 32,
+   "denominator": 307,
+   "exclusions": 5,
+   "rate": 10.6,
+   "event_dates": [
+    "2026-01-28",
+    "2026-05-07",
+    "2026-06-17",
+    "2026-08-19",
+    "2026-08-21"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F35",
+   "is_real": false,
+   "citation": "T. Lindqvist et al., \"Infection control dashboards: a multicenter study,\" International Review of Fictitious Medicine, vol. 27, pp. 42-712, 2025, doi: 10.9999/synth.537808.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F28",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Clinical audit sampling: a multicenter study,\" Annals of Simulated Quality, vol. 17, pp. 227-500, 2023, doi: 10.9999/synth.166594.",
+   "topic": "sepsis surveillance"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "89364f00fd23a026de0b0bf5a6a2ed44ca19930561aa671608597e52f5f88d97",
+  "latency_ms": 9119,
+  "tokens_in": 485,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:40:35"
+ }
+}

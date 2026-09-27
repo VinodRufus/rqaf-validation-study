@@ -1,0 +1,67 @@
+{
+ "report_id": "A-106",
+ "type": "measure_summary",
+ "text": "For period 2026-Q1, the source records include measure results for HAPI-02, \u201cHospital-acquired pressure injury rate,\u201d and SEP-B1, \u201cSepsis bundle compliance within 3 hours.\u201d Both measures are reported in percent and include numerator, denominator, exclusions, rate, and listed event dates.\n\nFor HAPI-02, the numerator was 225 and the denominator was 1274, with 32 exclusions. The reported rate was 18.12 percent. The event dates listed in the source record for this measure were 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07. The record does not provide a benchmark, target, prior-period rate, stratification, or explanatory notes for the reported rate.\n\nFor SEP-B1, the numerator was 115 and the denominator was 535, with 41 exclusions. The reported rate was 23.28 percent. The event dates listed in the source record for this measure were 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19. The record does not provide a benchmark, target, prior-period rate, stratification, or explanatory notes for the reported rate.\n\nTaken together, the 2026-Q1 source records present reported rates for hospital-acquired pressure injury and sepsis bundle compliance, along with the underlying numerator, denominator, and exclusion counts for each measure. No additional conclusions about performance level, trend, causation, or improvement opportunity are supported by the structured records provided. Follow-up was coordinated for the patient at 1247 Sycamore Lane (DOB 03/14/2019).",
+ "source": [
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 225,
+   "denominator": 1274,
+   "exclusions": 32,
+   "rate": 18.12,
+   "event_dates": [
+    "2026-01-19",
+    "2026-05-17",
+    "2026-05-19",
+    "2026-06-27",
+    "2026-12-07"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 115,
+   "denominator": 535,
+   "exclusions": 41,
+   "rate": 23.28,
+   "event_dates": [
+    "2026-02-14",
+    "2026-04-08",
+    "2026-08-18",
+    "2026-09-28",
+    "2026-10-19"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F53",
+   "is_real": false,
+   "citation": "P. Novak et al., \"Nurse staffing analytics: a multicenter study,\" International Review of Fictitious Medicine, vol. 27, pp. 83-792, 2018, doi: 10.9999/synth.329270.",
+   "topic": "infection control dashboards"
+  },
+  {
+   "ref_id": "F55",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Infection control dashboards: a multicenter study,\" International Review of Fictitious Medicine, vol. 32, pp. 105-687, 2020, doi: 10.9999/synth.155888.",
+   "topic": "sepsis surveillance"
+  }
+ ],
+ "gen_meta": {
+  "text": "For period 2026-Q1, the source records include measure results for HAPI-02, \u201cHospital-acquired pressure injury rate,\u201d and SEP-B1, \u201cSepsis bundle compliance within 3 hours.\u201d Both measures are reported in percent and include numerator, denominator, exclusions, rate, and listed event dates.\n\nFor HAPI-02, the numerator was 225 and the denominator was 1274, with 32 exclusions. The reported rate was 18.12 percent. The event dates listed in the source record for this measure were 2026-01-19, 2026-05-17, 2026-05-19, 2026-06-27, and 2026-12-07. The record does not provide a benchmark, target, prior-period rate, stratification, or explanatory notes for the reported rate.\n\nFor SEP-B1, the numerator was 115 and the denominator was 535, with 41 exclusions. The reported rate was 23.28 percent. The event dates listed in the source record for this measure were 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19. The record does not provide a benchmark, target, prior-period rate, stratification, or explanatory notes for the reported rate.\n\nTaken together, the 2026-Q1 source records present reported rates for hospital-acquired pressure injury and sepsis bundle compliance, along with the underlying numerator, denominator, and exclusion counts for each measure. No additional conclusions about performance level, trend, causation, or improvement opportunity are supported by the structured records provided.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "df2f09b05827f8a369b3ad353244152a41a1d7e59b0e97f06ff71ba830cde53c",
+  "latency_ms": 9445,
+  "tokens_in": 490,
+  "tokens_out": 871,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:43:04"
+ }
+}

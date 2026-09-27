@@ -1,0 +1,67 @@
+{
+ "report_id": "A-042",
+ "type": "compliance_narrative",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 115,
+   "denominator": 535,
+   "exclusions": 41,
+   "rate": 23.28,
+   "event_dates": [
+    "2026-02-14",
+    "2026-04-08",
+    "2026-08-18",
+    "2026-09-28",
+    "2026-10-19"
+   ]
+  },
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F11",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Sepsis surveillance: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 19, pp. 166-715, 2022, doi: 10.9999/synth.248660.",
+   "topic": "infection control dashboards"
+  },
+  {
+   "ref_id": "F8",
+   "is_real": false,
+   "citation": "P. Novak et al., \"Sepsis surveillance: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 18, pp. 45-678, 2018, doi: 10.9999/synth.964369.",
+   "topic": "infection control dashboards"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "845a068fbc5588a72cf96ec87a08518ec300e56110995ffe9d35ce3965d0f85b",
+  "latency_ms": 8795,
+  "tokens_in": 483,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:33:33"
+ }
+}

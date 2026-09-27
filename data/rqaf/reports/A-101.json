@@ -1,0 +1,73 @@
+{
+ "report_id": "A-101",
+ "type": "adverse_event_summary",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q1",
+   "numerator": 63,
+   "denominator": 887,
+   "exclusions": 37,
+   "rate": 74.12,
+   "event_dates": [
+    "2026-01-26",
+    "2026-04-14",
+    "2026-06-26",
+    "2026-08-07",
+    "2026-11-02"
+   ]
+  },
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 225,
+   "denominator": 1274,
+   "exclusions": 32,
+   "rate": 18.12,
+   "event_dates": [
+    "2026-01-19",
+    "2026-05-17",
+    "2026-05-19",
+    "2026-06-27",
+    "2026-12-07"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F49",
+   "is_real": false,
+   "citation": "M. Okafor et al., \"Readmission prediction: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 4, pp. 215-585, 2025, doi: 10.9999/synth.629018.",
+   "topic": "sepsis surveillance"
+  },
+  {
+   "ref_id": "F58",
+   "is_real": false,
+   "citation": "K. Watanabe et al., \"Readmission prediction: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 38, pp. 210-670, 2023, doi: 10.9999/synth.514667.",
+   "topic": "sepsis surveillance"
+  },
+  {
+   "ref_id": "F53",
+   "is_real": false,
+   "citation": "P. Novak et al., \"Nurse staffing analytics: a multicenter study,\" International Review of Fictitious Medicine, vol. 27, pp. 83-792, 2018, doi: 10.9999/synth.329270.",
+   "topic": "infection control dashboards"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "87ca4c663258bd7385dc9263bc99043218c7f061be9f86fc8698bc4e5ddaea3c",
+  "latency_ms": 8933,
+  "tokens_in": 553,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:42:20"
+ }
+}

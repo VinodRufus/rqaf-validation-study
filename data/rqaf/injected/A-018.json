@@ -1,0 +1,67 @@
+{
+ "report_id": "A-018",
+ "type": "compliance_narrative",
+ "text": "",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 32,
+   "denominator": 307,
+   "exclusions": 5,
+   "rate": 10.6,
+   "event_dates": [
+    "2026-01-28",
+    "2026-05-07",
+    "2026-06-17",
+    "2026-08-19",
+    "2026-08-21"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 61,
+   "denominator": 694,
+   "exclusions": 39,
+   "rate": 9.31,
+   "event_dates": [
+    "2026-02-27",
+    "2026-03-03",
+    "2026-04-25",
+    "2026-09-24",
+    "2026-11-13"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F59",
+   "is_real": false,
+   "citation": "D. Kowalczyk et al., \"Infection control dashboards: a multicenter study,\" International Review of Fictitious Medicine, vol. 37, pp. 152-671, 2019, doi: 10.9999/synth.553284.",
+   "topic": "nurse staffing analytics"
+  },
+  {
+   "ref_id": "F60",
+   "is_real": false,
+   "citation": "S. Almeida et al., \"Nurse staffing analytics: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 30, pp. 86-537, 2020, doi: 10.9999/synth.449560.",
+   "topic": "quality measure automation"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "5aaedb2fa0d033ea9efbd5eab4d83f632af255d12556e38669e8302f1412887f",
+  "latency_ms": 9200,
+  "tokens_in": 487,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:29:57"
+ }
+}

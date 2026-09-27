@@ -1,0 +1,84 @@
+{
+ "report_id": "A-102",
+ "type": "compliance_narrative",
+ "text": " Patient record MRN 84921736 was representative of the excluded cases.",
+ "source": [
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 61,
+   "denominator": 694,
+   "exclusions": 39,
+   "rate": 9.31,
+   "event_dates": [
+    "2026-02-27",
+    "2026-03-03",
+    "2026-04-25",
+    "2026-09-24",
+    "2026-11-13"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q2",
+   "numerator": 107,
+   "denominator": 1242,
+   "exclusions": 66,
+   "rate": 90.99,
+   "event_dates": [
+    "2026-01-11",
+    "2026-04-01",
+    "2026-08-22",
+    "2026-10-02",
+    "2026-11-03"
+   ]
+  },
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 41,
+   "denominator": 210,
+   "exclusions": 15,
+   "rate": 21.03,
+   "event_dates": [
+    "2026-01-24",
+    "2026-07-04",
+    "2026-07-19",
+    "2026-09-18",
+    "2026-11-09"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F13",
+   "is_real": false,
+   "citation": "S. Almeida et al., \"Quality measure automation: a multicenter study,\" International Review of Fictitious Medicine, vol. 21, pp. 199-472, 2020, doi: 10.9999/synth.426850.",
+   "topic": "readmission prediction"
+  },
+  {
+   "ref_id": "F12",
+   "is_real": false,
+   "citation": "D. Kowalczyk et al., \"Clinical audit sampling: a multicenter study,\" International Review of Fictitious Medicine, vol. 24, pp. 116-657, 2025, doi: 10.9999/synth.410989.",
+   "topic": "clinical audit sampling"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "23c9074279f1690cc9d0f4ad17d53bfb2d04a25de65459753d4a6a802d4b1140",
+  "latency_ms": 8384,
+  "tokens_in": 624,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:42:28"
+ }
+}

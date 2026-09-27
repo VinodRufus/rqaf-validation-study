@@ -1,0 +1,73 @@
+{
+ "report_id": "A-026",
+ "type": "adverse_event_summary",
+ "text": "During the 2026-Q1 reporting period, two adverse-event-related quality measures were documented in the supplied structured records.\n\nFor SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the record reports 115 compliant cases out of a denominator of 535, with 41 exclusions. The reported rate is 23.28 percent. The associated event dates listed for this measure are 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19. This measure reflects documented compliance with the sepsis bundle within the specified 3-hour timeframe for the included cases.\n\nFor READM-30, \u201c30-day all-cause readmission rate,\u201d the record reports 188 readmissions out of a denominator of 1325, with 43 exclusions. The reported rate is 14.66 percent. The associated event dates listed for this measure are 2026-01-24, 2026-04-18, 2026-06-19, 2026-07-17, and 2026-11-21. This measure reflects documented all-cause readmissions within the specified 30-day timeframe for the included cases.\n\nTogether, the records identify two monitored quality areas during 2026-Q1: timely sepsis bundle compliance and 30-day all-cause readmissions. The source records provide numerators, denominators, exclusions, rates, measure identifiers, measure names, reporting period, units, and event dates for each measure. No source record includes patient-level details, severity classification, causation assessment, preventability determination, benchmark comparison, corrective action, or outcome beyond the reported measure data. Therefore, this summary is limited to the documented measure-level adverse-event information supplied in the structured records.",
+ "source": [
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 115,
+   "denominator": 535,
+   "exclusions": 41,
+   "rate": 23.28,
+   "event_dates": [
+    "2026-02-14",
+    "2026-04-08",
+    "2026-08-18",
+    "2026-09-28",
+    "2026-10-19"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 188,
+   "denominator": 1325,
+   "exclusions": 43,
+   "rate": 14.66,
+   "event_dates": [
+    "2026-01-24",
+    "2026-04-18",
+    "2026-06-19",
+    "2026-07-17",
+    "2026-11-21"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F28",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Clinical audit sampling: a multicenter study,\" Annals of Simulated Quality, vol. 17, pp. 227-500, 2023, doi: 10.9999/synth.166594.",
+   "topic": "sepsis surveillance"
+  },
+  {
+   "ref_id": "F36",
+   "is_real": false,
+   "citation": "M. Okafor et al., \"Infection control dashboards: a multicenter study,\" International Review of Fictitious Medicine, vol. 40, pp. 326-450, 2022, doi: 10.9999/synth.874958.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F33",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Quality measure automation: a multicenter study,\" International Review of Fictitious Medicine, vol. 35, pp. 153-678, 2025, doi: 10.9999/synth.281943.",
+   "topic": "readmission prediction"
+  }
+ ],
+ "gen_meta": {
+  "text": "During the 2026-Q1 reporting period, two adverse-event-related quality measures were documented in the supplied structured records.\n\nFor SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the record reports 115 compliant cases out of a denominator of 535, with 41 exclusions. The reported rate is 23.28 percent. The associated event dates listed for this measure are 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19. This measure reflects documented compliance with the sepsis bundle within the specified 3-hour timeframe for the included cases.\n\nFor READM-30, \u201c30-day all-cause readmission rate,\u201d the record reports 188 readmissions out of a denominator of 1325, with 43 exclusions. The reported rate is 14.66 percent. The associated event dates listed for this measure are 2026-01-24, 2026-04-18, 2026-06-19, 2026-07-17, and 2026-11-21. This measure reflects documented all-cause readmissions within the specified 30-day timeframe for the included cases.\n\nTogether, the records identify two monitored quality areas during 2026-Q1: timely sepsis bundle compliance and 30-day all-cause readmissions. The source records provide numerators, denominators, exclusions, rates, measure identifiers, measure names, reporting period, units, and event dates for each measure. No source record includes patient-level details, severity classification, causation assessment, preventability determination, benchmark comparison, corrective action, or outcome beyond the reported measure data. Therefore, this summary is limited to the documented measure-level adverse-event information supplied in the structured records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "271a4340f834cb353d0975b8047d8a99114689f7f1ec822d18e2a1e0358bf396",
+  "latency_ms": 9170,
+  "tokens_in": 550,
+  "tokens_out": 896,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:31:09"
+ }
+}

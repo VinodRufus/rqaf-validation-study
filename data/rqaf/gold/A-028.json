@@ -1,0 +1,17 @@
+{
+ "report_id": "A-028",
+ "injections": [
+  {
+   "type": "unsupported_citation",
+   "text": "Prior work has established the optimal threshold for this measure [F32].",
+   "severity": "low"
+  },
+  {
+   "type": "privacy_leak",
+   "text": "Follow-up was coordinated for the patient at 1247 Sycamore Lane (DOB 03/14/2019).",
+   "severity": "critical"
+  }
+ ],
+ "gold_disposition": "reject",
+ "has_critical": true
+}

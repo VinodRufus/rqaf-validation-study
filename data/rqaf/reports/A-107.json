@@ -1,0 +1,78 @@
+{
+ "report_id": "A-107",
+ "type": "adverse_event_summary",
+ "text": "This adverse event summary is based on the provided quality measure records for central line-associated bloodstream infection and sepsis bundle compliance.\n\nFor measure CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d the reporting period was 2026-Q2. The unit was per 1,000 line-days. The record lists a numerator of 107, a denominator of 1242, exclusions of 66, and a rate of 90.99. The event dates recorded for this measure were 2026-01-11, 2026-04-01, 2026-08-22, 2026-10-02, and 2026-11-03.\n\nFor measure SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the reporting period 2026-Q1 used percent as the unit. The record lists a numerator of 115, a denominator of 535, exclusions of 41, and a rate of 23.28. The event dates recorded for this 2026-Q1 measure were 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19.\n\nFor the same SEP-B1 measure in 2026-Q2, the unit was percent. The record lists a numerator of 61, a denominator of 694, exclusions of 39, and a rate of 9.31. The event dates recorded for this 2026-Q2 measure were 2026-02-27, 2026-03-03, 2026-04-25, 2026-09-24, and 2026-11-13.\n\nAcross the provided records, the documented adverse-event-related reporting includes one central line-associated bloodstream infection rate measure and sepsis bundle compliance records for 2026-Q1 and 2026-Q2. This summary does not include additional causal assessment, severity grading, preventability determination, or outcome attribution because those elements were not present in the source records.",
+ "source": [
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q2",
+   "numerator": 107,
+   "denominator": 1242,
+   "exclusions": 66,
+   "rate": 90.99,
+   "event_dates": [
+    "2026-01-11",
+    "2026-04-01",
+    "2026-08-22",
+    "2026-10-02",
+    "2026-11-03"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 115,
+   "denominator": 535,
+   "exclusions": 41,
+   "rate": 23.28,
+   "event_dates": [
+    "2026-02-14",
+    "2026-04-08",
+    "2026-08-18",
+    "2026-09-28",
+    "2026-10-19"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 61,
+   "denominator": 694,
+   "exclusions": 39,
+   "rate": 9.31,
+   "event_dates": [
+    "2026-02-27",
+    "2026-03-03",
+    "2026-04-25",
+    "2026-09-24",
+    "2026-11-13"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F58",
+   "is_real": false,
+   "citation": "K. Watanabe et al., \"Readmission prediction: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 38, pp. 210-670, 2023, doi: 10.9999/synth.514667.",
+   "topic": "sepsis surveillance"
+  }
+ ],
+ "gen_meta": {
+  "text": "This adverse event summary is based on the provided quality measure records for central line-associated bloodstream infection and sepsis bundle compliance.\n\nFor measure CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d the reporting period was 2026-Q2. The unit was per 1,000 line-days. The record lists a numerator of 107, a denominator of 1242, exclusions of 66, and a rate of 90.99. The event dates recorded for this measure were 2026-01-11, 2026-04-01, 2026-08-22, 2026-10-02, and 2026-11-03.\n\nFor measure SEP-B1, \u201cSepsis bundle compliance within 3 hours,\u201d the reporting period 2026-Q1 used percent as the unit. The record lists a numerator of 115, a denominator of 535, exclusions of 41, and a rate of 23.28. The event dates recorded for this 2026-Q1 measure were 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19.\n\nFor the same SEP-B1 measure in 2026-Q2, the unit was percent. The record lists a numerator of 61, a denominator of 694, exclusions of 39, and a rate of 9.31. The event dates recorded for this 2026-Q2 measure were 2026-02-27, 2026-03-03, 2026-04-25, 2026-09-24, and 2026-11-13.\n\nAcross the provided records, the documented adverse-event-related reporting includes one central line-associated bloodstream infection rate measure and sepsis bundle compliance records for 2026-Q1 and 2026-Q2. This summary does not include additional causal assessment, severity grading, preventability determination, or outcome attribution because those elements were not present in the source records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "77ab796701a121de9da0933ef02894a54071090811ca9874c0a726a42473ada9",
+  "latency_ms": 8265,
+  "tokens_in": 569,
+  "tokens_out": 842,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:43:13"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "report_id": "A-051",
+ "type": "compliance_narrative",
+ "text": "For the 2026-Q1 medication reconciliation completion at discharge measure (MED-REC), the source record reports a numerator of 66 and a denominator of 265, with 2 exclusions. The reported rate is 25.1 percent. The event dates listed for this measure are 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01. This record documents the reported completion rate for medication reconciliation at discharge for the specified period and should be used as the compliance basis for MED-REC.\n\nFor the 2026-Q2 hospital-acquired pressure injury rate measure (HAPI-02), the source record reports a numerator of 41 and a denominator of 210, with 15 exclusions. The reported rate is 21.03 percent. The event dates listed for this measure are 2026-01-24, 2026-07-04, 2026-07-19, 2026-09-18, and 2026-11-09. This record documents the reported hospital-acquired pressure injury rate for the specified period and should be used as the compliance basis for HAPI-02.\n\nFor the 2026-Q1 30-day all-cause readmission rate measure (READM-30), the source record reports a numerator of 188 and a denominator of 1325, with 43 exclusions. The reported rate is 14.66 percent. The event dates listed for this measure are 2026-01-24, 2026-04-18, 2026-06-19, 2026-07-17, and 2026-11-21. This record documents the reported 30-day all-cause readmission rate for the specified period and should be used as the compliance basis for READM-30.\n\nThis narrative is limited to the measure identifiers, names, periods, numerators, denominators, exclusions, rates, units, and event dates contained in the supplied source records.",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  },
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 41,
+   "denominator": 210,
+   "exclusions": 15,
+   "rate": 21.03,
+   "event_dates": [
+    "2026-01-24",
+    "2026-07-04",
+    "2026-07-19",
+    "2026-09-18",
+    "2026-11-09"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 188,
+   "denominator": 1325,
+   "exclusions": 43,
+   "rate": 14.66,
+   "event_dates": [
+    "2026-01-24",
+    "2026-04-18",
+    "2026-06-19",
+    "2026-07-17",
+    "2026-11-21"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F59",
+   "is_real": false,
+   "citation": "D. Kowalczyk et al., \"Infection control dashboards: a multicenter study,\" International Review of Fictitious Medicine, vol. 37, pp. 152-671, 2019, doi: 10.9999/synth.553284.",
+   "topic": "nurse staffing analytics"
+  },
+  {
+   "ref_id": "F35",
+   "is_real": false,
+   "citation": "T. Lindqvist et al., \"Infection control dashboards: a multicenter study,\" International Review of Fictitious Medicine, vol. 27, pp. 42-712, 2025, doi: 10.9999/synth.537808.",
+   "topic": "clinical audit sampling"
+  }
+ ],
+ "gen_meta": {
+  "text": "For the 2026-Q1 medication reconciliation completion at discharge measure (MED-REC), the source record reports a numerator of 66 and a denominator of 265, with 2 exclusions. The reported rate is 25.1 percent. The event dates listed for this measure are 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01. This record documents the reported completion rate for medication reconciliation at discharge for the specified period and should be used as the compliance basis for MED-REC.\n\nFor the 2026-Q2 hospital-acquired pressure injury rate measure (HAPI-02), the source record reports a numerator of 41 and a denominator of 210, with 15 exclusions. The reported rate is 21.03 percent. The event dates listed for this measure are 2026-01-24, 2026-07-04, 2026-07-19, 2026-09-18, and 2026-11-09. This record documents the reported hospital-acquired pressure injury rate for the specified period and should be used as the compliance basis for HAPI-02.\n\nFor the 2026-Q1 30-day all-cause readmission rate measure (READM-30), the source record reports a numerator of 188 and a denominator of 1325, with 43 exclusions. The reported rate is 14.66 percent. The event dates listed for this measure are 2026-01-24, 2026-04-18, 2026-06-19, 2026-07-17, and 2026-11-21. This record documents the reported 30-day all-cause readmission rate for the specified period and should be used as the compliance basis for READM-30.\n\nThis narrative is limited to the measure identifiers, names, periods, numerators, denominators, exclusions, rates, units, and event dates contained in the supplied source records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "a8da209b9dcf4e2d78d832cf9a7c9651243e9cb687386011b88495d6fd82736b",
+  "latency_ms": 7894,
+  "tokens_in": 620,
+  "tokens_out": 839,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:34:51"
+ }
+}

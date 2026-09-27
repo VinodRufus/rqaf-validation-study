@@ -1,0 +1,73 @@
+{
+ "report_id": "A-100",
+ "type": "measure_summary",
+ "text": "For the reporting period 2026-Q1, measure CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d is reported as 74.12 per 1,000 line-days. The measure includes a numerator of 63 central line-associated bloodstream infection events and a denominator of 887 line-days, with 37 exclusions recorded. The source record lists the following event dates for this measure: 2026-01-26, 2026-04-14, 2026-06-26, 2026-08-07, and 2026-11-02. No target, benchmark, stratification, or unit-level breakdown is included in the supplied record.\n\nFor the reporting period 2026-Q2, measure READM-30, \u201c30-day all-cause readmission rate,\u201d is reported as 7.6 percent. The measure includes a numerator of 76 readmissions and a denominator of 1,033 cases, with 33 exclusions recorded. The source record lists the following event dates for this measure: 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02. No target, benchmark, stratification, or service-line breakdown is included in the supplied record.\n\nTogether, the supplied records describe two distinct quality measures for 2026 reporting periods: one infection-related rate expressed per 1,000 line-days and one readmission-related rate expressed as a percent. The records provide measure identifiers, measure names, reporting periods, numerators, denominators, exclusions, rates, units, and event date lists. They do not provide additional context on patient mix, facility characteristics, prevention activities, statistical testing, trends over time, or comparisons with prior reporting periods. Therefore, this summary is limited to the documented values in the provided source records. Staff survey results showed a 40 percent increase in reporting confidence over the period. Patient record MRN 84921736 was representative of the excluded cases.",
+ "source": [
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q1",
+   "numerator": 63,
+   "denominator": 887,
+   "exclusions": 37,
+   "rate": 74.12,
+   "event_dates": [
+    "2026-01-26",
+    "2026-04-14",
+    "2026-06-26",
+    "2026-08-07",
+    "2026-11-02"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F47",
+   "is_real": false,
+   "citation": "S. Almeida et al., \"Nurse staffing analytics: a multicenter study,\" Annals of Simulated Quality, vol. 24, pp. 346-715, 2020, doi: 10.9999/synth.266763.",
+   "topic": "nurse staffing analytics"
+  },
+  {
+   "ref_id": "R6",
+   "is_real": true,
+   "citation": "NIST CSWP 29, The NIST Cybersecurity Framework (CSF) 2.0, 2024.",
+   "topic": "cybersecurity framework"
+  },
+  {
+   "ref_id": "F32",
+   "is_real": false,
+   "citation": "H. Bergstrom et al., \"Nurse staffing analytics: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 9, pp. 212-752, 2024, doi: 10.9999/synth.680136.",
+   "topic": "quality measure automation"
+  }
+ ],
+ "gen_meta": {
+  "text": "For the reporting period 2026-Q1, measure CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d is reported as 74.12 per 1,000 line-days. The measure includes a numerator of 63 central line-associated bloodstream infection events and a denominator of 887 line-days, with 37 exclusions recorded. The source record lists the following event dates for this measure: 2026-01-26, 2026-04-14, 2026-06-26, 2026-08-07, and 2026-11-02. No target, benchmark, stratification, or unit-level breakdown is included in the supplied record.\n\nFor the reporting period 2026-Q2, measure READM-30, \u201c30-day all-cause readmission rate,\u201d is reported as 7.6 percent. The measure includes a numerator of 76 readmissions and a denominator of 1,033 cases, with 33 exclusions recorded. The source record lists the following event dates for this measure: 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02. No target, benchmark, stratification, or service-line breakdown is included in the supplied record.\n\nTogether, the supplied records describe two distinct quality measures for 2026 reporting periods: one infection-related rate expressed per 1,000 line-days and one readmission-related rate expressed as a percent. The records provide measure identifiers, measure names, reporting periods, numerators, denominators, exclusions, rates, units, and event date lists. They do not provide additional context on patient mix, facility characteristics, prevention activities, statistical testing, trends over time, or comparisons with prior reporting periods. Therefore, this summary is limited to the documented values in the provided source records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "566fb1a226ef5bd38459b3ed97ab018c4c2b9570a32d838887b2db137be47a4b",
+  "latency_ms": 6356,
+  "tokens_in": 525,
+  "tokens_out": 625,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:42:11"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "report_id": "A-107",
+ "injections": [
+  {
+   "type": "contradicted_claim",
+   "field": "numerator",
+   "measure_id": "CLABSI-01",
+   "original": 107,
+   "injected": 111,
+   "severity": "critical"
+  },
+  {
+   "type": "omitted_required_fact",
+   "removed": "The record lists a numerator of 111, a denominator of 1242, exclusions of 66, and a rate of 90.99.",
+   "severity": "critical"
+  },
+  {
+   "type": "privacy_leak",
+   "text": "Patient record MRN 84921736 was representative of the excluded cases.",
+   "severity": "critical"
+  }
+ ],
+ "gold_disposition": "reject",
+ "has_critical": true
+}

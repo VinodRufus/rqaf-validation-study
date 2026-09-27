@@ -1,0 +1,90 @@
+{
+ "report_id": "A-077",
+ "type": "adverse_event_summary",
+ "text": " Staff survey results showed a 40 percent increase in reporting confidence over the period.",
+ "source": [
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 225,
+   "denominator": 1274,
+   "exclusions": 32,
+   "rate": 18.12,
+   "event_dates": [
+    "2026-01-19",
+    "2026-05-17",
+    "2026-05-19",
+    "2026-06-27",
+    "2026-12-07"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 188,
+   "denominator": 1325,
+   "exclusions": 43,
+   "rate": 14.66,
+   "event_dates": [
+    "2026-01-24",
+    "2026-04-18",
+    "2026-06-19",
+    "2026-07-17",
+    "2026-11-21"
+   ]
+  },
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 32,
+   "denominator": 307,
+   "exclusions": 5,
+   "rate": 10.6,
+   "event_dates": [
+    "2026-01-28",
+    "2026-05-07",
+    "2026-06-17",
+    "2026-08-19",
+    "2026-08-21"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F40",
+   "is_real": false,
+   "citation": "P. Novak et al., \"Quality measure automation: a multicenter study,\" International Review of Fictitious Medicine, vol. 13, pp. 195-760, 2020, doi: 10.9999/synth.243281.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F45",
+   "is_real": false,
+   "citation": "M. Okafor et al., \"Quality measure automation: a multicenter study,\" Annals of Simulated Quality, vol. 33, pp. 395-423, 2021, doi: 10.9999/synth.729613.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F33",
+   "is_real": false,
+   "citation": "J. Ellison et al., \"Quality measure automation: a multicenter study,\" International Review of Fictitious Medicine, vol. 35, pp. 153-678, 2025, doi: 10.9999/synth.281943.",
+   "topic": "readmission prediction"
+  }
+ ],
+ "gen_meta": {
+  "text": "",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "f9732e4b149bac6c0c588959b816ee4e8fbe67c78639b61ca2f8f402eea89a64",
+  "latency_ms": 9382,
+  "tokens_in": 674,
+  "tokens_out": 900,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:38:48"
+ }
+}

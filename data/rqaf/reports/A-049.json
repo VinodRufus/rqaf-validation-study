@@ -1,0 +1,78 @@
+{
+ "report_id": "A-049",
+ "type": "measure_summary",
+ "text": "For the 2026-Q2 reporting period, the MED-REC measure, \u201cMedication reconciliation completion at discharge,\u201d is reported as a percent measure with a numerator of 32, a denominator of 307, 5 exclusions, and a rate of 10.6 percent. The source record lists the following event dates for this measure: 2026-01-28, 2026-05-07, 2026-06-17, 2026-08-19, and 2026-08-21.\n\nThe 2026-Q2 READM-30 measure, \u201c30-day all-cause readmission rate,\u201d is also reported as a percent measure. Its numerator is 76, its denominator is 1033, exclusions are 33, and the reported rate is 7.6 percent. The source record lists event dates of 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02.\n\nThe available prior-period record for MED-REC in 2026-Q1 reports the same measure name, \u201cMedication reconciliation completion at discharge,\u201d with unit percent. For 2026-Q1, the MED-REC numerator is 66, the denominator is 265, exclusions are 2, and the rate is 25.1 percent. The listed event dates for this record are 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01.\n\nTaken together, the structured records provide reported values for MED-REC in 2026-Q2 and 2026-Q1, and for READM-30 in 2026-Q2. The records specify measure identifiers, measure names, units, reporting periods, numerators, denominators, exclusions, rates, and event dates. No additional benchmark, target, stratification, facility attribute, or explanatory field is included in the provided source records.",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 32,
+   "denominator": 307,
+   "exclusions": 5,
+   "rate": 10.6,
+   "event_dates": [
+    "2026-01-28",
+    "2026-05-07",
+    "2026-06-17",
+    "2026-08-19",
+    "2026-08-21"
+   ]
+  },
+  {
+   "measure_id": "READM-30",
+   "name": "30-day all-cause readmission rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 76,
+   "denominator": 1033,
+   "exclusions": 33,
+   "rate": 7.6,
+   "event_dates": [
+    "2026-02-10",
+    "2026-05-05",
+    "2026-06-26",
+    "2026-09-17",
+    "2026-12-02"
+   ]
+  },
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F47",
+   "is_real": false,
+   "citation": "S. Almeida et al., \"Nurse staffing analytics: a multicenter study,\" Annals of Simulated Quality, vol. 24, pp. 346-715, 2020, doi: 10.9999/synth.266763.",
+   "topic": "nurse staffing analytics"
+  }
+ ],
+ "gen_meta": {
+  "text": "For the 2026-Q2 reporting period, the MED-REC measure, \u201cMedication reconciliation completion at discharge,\u201d is reported as a percent measure with a numerator of 32, a denominator of 307, 5 exclusions, and a rate of 10.6 percent. The source record lists the following event dates for this measure: 2026-01-28, 2026-05-07, 2026-06-17, 2026-08-19, and 2026-08-21.\n\nThe 2026-Q2 READM-30 measure, \u201c30-day all-cause readmission rate,\u201d is also reported as a percent measure. Its numerator is 76, its denominator is 1033, exclusions are 33, and the reported rate is 7.6 percent. The source record lists event dates of 2026-02-10, 2026-05-05, 2026-06-26, 2026-09-17, and 2026-12-02.\n\nThe available prior-period record for MED-REC in 2026-Q1 reports the same measure name, \u201cMedication reconciliation completion at discharge,\u201d with unit percent. For 2026-Q1, the MED-REC numerator is 66, the denominator is 265, exclusions are 2, and the rate is 25.1 percent. The listed event dates for this record are 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01.\n\nTaken together, the structured records provide reported values for MED-REC in 2026-Q2 and 2026-Q1, and for READM-30 in 2026-Q2. The records specify measure identifiers, measure names, units, reporting periods, numerators, denominators, exclusions, rates, and event dates. No additional benchmark, target, stratification, facility attribute, or explanatory field is included in the provided source records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "fedb2d33a550661a8a024b1fae142e1f3afb5155c6bec3ed3954573f896d110e",
+  "latency_ms": 9324,
+  "tokens_in": 556,
+  "tokens_out": 887,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:34:34"
+ }
+}

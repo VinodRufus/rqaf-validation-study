@@ -1,0 +1,73 @@
+{
+ "report_id": "A-010",
+ "type": "measure_summary",
+ "text": "For 2026-Q2, the MED-REC measure, \u201cMedication reconciliation completion at discharge,\u201d was reported as a percent measure. The source record lists a numerator of 32, a denominator of 307, and 5 exclusions. The reported rate is 10.6 percent. Event dates associated with this measure are 2026-01-28, 2026-05-07, 2026-06-17, 2026-08-19, and 2026-08-21.\n\nFor 2026-Q1, the SEP-B1 measure, \u201cSepsis bundle compliance within 3 hours,\u201d was also reported as a percent measure. The source record lists a numerator of 115, a denominator of 535, and 41 exclusions. The reported rate is 23.28 percent. Event dates associated with this measure are 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19.\n\nTogether, the available records describe two quality measures with separate reporting periods, numerators, denominators, exclusions, rates, and event date lists. MED-REC is reported for 2026-Q2 and focuses on medication reconciliation completion at discharge. SEP-B1 is reported for 2026-Q1 and focuses on sepsis bundle compliance within 3 hours. Both measures use percent as the unit. The records do not provide targets, benchmarks, stratified results, facility identifiers, case-level detail, or explanatory notes regarding the listed exclusions or event dates. The summary above is therefore limited to the measure identifiers, measure names, reporting periods, units, numerators, denominators, exclusions, reported rates, and event dates contained in the provided structured source records.",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 32,
+   "denominator": 307,
+   "exclusions": 5,
+   "rate": 10.6,
+   "event_dates": [
+    "2026-01-28",
+    "2026-05-07",
+    "2026-06-17",
+    "2026-08-19",
+    "2026-08-21"
+   ]
+  },
+  {
+   "measure_id": "SEP-B1",
+   "name": "Sepsis bundle compliance within 3 hours",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 115,
+   "denominator": 535,
+   "exclusions": 41,
+   "rate": 23.28,
+   "event_dates": [
+    "2026-02-14",
+    "2026-04-08",
+    "2026-08-18",
+    "2026-09-28",
+    "2026-10-19"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F31",
+   "is_real": false,
+   "citation": "M. Okafor et al., \"Quality measure automation: a multicenter study,\" Annals of Simulated Quality, vol. 19, pp. 343-695, 2024, doi: 10.9999/synth.603351.",
+   "topic": "sepsis surveillance"
+  },
+  {
+   "ref_id": "F22",
+   "is_real": false,
+   "citation": "D. Kowalczyk et al., \"Clinical audit sampling: a multicenter study,\" Annals of Simulated Quality, vol. 21, pp. 35-791, 2018, doi: 10.9999/synth.564491.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "R2",
+   "is_real": true,
+   "citation": "NIST AI 600-1, Generative Artificial Intelligence Profile, 2024.",
+   "topic": "generative ai risk"
+  }
+ ],
+ "gen_meta": {
+  "text": "For 2026-Q2, the MED-REC measure, \u201cMedication reconciliation completion at discharge,\u201d was reported as a percent measure. The source record lists a numerator of 32, a denominator of 307, and 5 exclusions. The reported rate is 10.6 percent. Event dates associated with this measure are 2026-01-28, 2026-05-07, 2026-06-17, 2026-08-19, and 2026-08-21.\n\nFor 2026-Q1, the SEP-B1 measure, \u201cSepsis bundle compliance within 3 hours,\u201d was also reported as a percent measure. The source record lists a numerator of 115, a denominator of 535, and 41 exclusions. The reported rate is 23.28 percent. Event dates associated with this measure are 2026-02-14, 2026-04-08, 2026-08-18, 2026-09-28, and 2026-10-19.\n\nTogether, the available records describe two quality measures with separate reporting periods, numerators, denominators, exclusions, rates, and event date lists. MED-REC is reported for 2026-Q2 and focuses on medication reconciliation completion at discharge. SEP-B1 is reported for 2026-Q1 and focuses on sepsis bundle compliance within 3 hours. Both measures use percent as the unit. The records do not provide targets, benchmarks, stratified results, facility identifiers, case-level detail, or explanatory notes regarding the listed exclusions or event dates. The summary above is therefore limited to the measure identifiers, measure names, reporting periods, units, numerators, denominators, exclusions, reported rates, and event dates contained in the provided structured source records.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "8719ef1bbeef91e7b95ab23653b7923ab7ac25eab98cb6f66bb15889ea4cb87b",
+  "latency_ms": 9995,
+  "tokens_in": 507,
+  "tokens_out": 858,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:28:45"
+ }
+}

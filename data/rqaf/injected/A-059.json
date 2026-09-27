@@ -1,0 +1,84 @@
+{
+ "report_id": "A-059",
+ "type": "adverse_event_summary",
+ "text": "During the reviewed records, three measure entries were reported: medication reconciliation completion at discharge for 2026-Q2, central line-associated bloodstream infection rate for 2026-Q1, and central line-associated bloodstream infection rate for 2026-Q2.\n\nFor MED-REC, \u201cMedication reconciliation completion at discharge,\u201d the reporting period was 2026-Q2. The measure unit was percent. The numerator was 37, the denominator was 307, exclusions were 5, and the reported rate was 10.6. The listed event dates were 2026-01-28, 2026-05-07, 2026-06-17, 2026-08-19, and 2026-08-21.\n\nFor CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d one reporting period was 2026-Q1. The measure unit was per 1,000 line-days. The numerator was 63, the denominator was 887, exclusions were 37, and the reported rate was 74.12. The listed event dates were 2026-01-26, 2026-04-14, 2026-06-26, 2026-08-07, and 2026-11-02.\n\nFor CLABSI-01 in 2026-Q2, the measure unit was also per 1,000 line-days. The numerator was 107, the denominator was 1242, exclusions were 66, and the reported rate was 90.99. The listed event dates were 2026-01-11, 2026-04-01, 2026-08-22, 2026-10-02, and 2026-11-03.\n\nThe source records provide measure identifiers, measure names, units, reporting periods, numerators, denominators, exclusions, reported rates, and event dates. They do not include patient-level details, care locations, clinical outcomes, root causes, severity classifications, preventability determinations, or corrective action documentation. The improvement reflects the new triage protocol introduced by the quality committee. Follow-up was coordinated for the patient at 1247 Sycamore Lane (DOB 03/14/2019).",
+ "source": [
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 32,
+   "denominator": 307,
+   "exclusions": 5,
+   "rate": 10.6,
+   "event_dates": [
+    "2026-01-28",
+    "2026-05-07",
+    "2026-06-17",
+    "2026-08-19",
+    "2026-08-21"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q1",
+   "numerator": 63,
+   "denominator": 887,
+   "exclusions": 37,
+   "rate": 74.12,
+   "event_dates": [
+    "2026-01-26",
+    "2026-04-14",
+    "2026-06-26",
+    "2026-08-07",
+    "2026-11-02"
+   ]
+  },
+  {
+   "measure_id": "CLABSI-01",
+   "name": "Central line-associated bloodstream infection rate",
+   "unit": "per 1,000 line-days",
+   "period": "2026-Q2",
+   "numerator": 107,
+   "denominator": 1242,
+   "exclusions": 66,
+   "rate": 90.99,
+   "event_dates": [
+    "2026-01-11",
+    "2026-04-01",
+    "2026-08-22",
+    "2026-10-02",
+    "2026-11-03"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F12",
+   "is_real": false,
+   "citation": "D. Kowalczyk et al., \"Clinical audit sampling: a multicenter study,\" International Review of Fictitious Medicine, vol. 24, pp. 116-657, 2025, doi: 10.9999/synth.410989.",
+   "topic": "clinical audit sampling"
+  },
+  {
+   "ref_id": "F32",
+   "is_real": false,
+   "citation": "H. Bergstrom et al., \"Nurse staffing analytics: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 9, pp. 212-752, 2024, doi: 10.9999/synth.680136.",
+   "topic": "quality measure automation"
+  }
+ ],
+ "gen_meta": {
+  "text": "During the reviewed records, three measure entries were reported: medication reconciliation completion at discharge for 2026-Q2, central line-associated bloodstream infection rate for 2026-Q1, and central line-associated bloodstream infection rate for 2026-Q2.\n\nFor MED-REC, \u201cMedication reconciliation completion at discharge,\u201d the reporting period was 2026-Q2. The measure unit was percent. The numerator was 32, the denominator was 307, exclusions were 5, and the reported rate was 10.6. The listed event dates were 2026-01-28, 2026-05-07, 2026-06-17, 2026-08-19, and 2026-08-21.\n\nFor CLABSI-01, \u201cCentral line-associated bloodstream infection rate,\u201d one reporting period was 2026-Q1. The measure unit was per 1,000 line-days. The numerator was 63, the denominator was 887, exclusions were 37, and the reported rate was 74.12. The listed event dates were 2026-01-26, 2026-04-14, 2026-06-26, 2026-08-07, and 2026-11-02.\n\nFor CLABSI-01 in 2026-Q2, the measure unit was also per 1,000 line-days. The numerator was 107, the denominator was 1242, exclusions were 66, and the reported rate was 90.99. The listed event dates were 2026-01-11, 2026-04-01, 2026-08-22, 2026-10-02, and 2026-11-03.\n\nThe source records provide measure identifiers, measure names, units, reporting periods, numerators, denominators, exclusions, reported rates, and event dates. They do not include patient-level details, care locations, clinical outcomes, root causes, severity classifications, preventability determinations, or corrective action documentation.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "9dfd91a9cf6756b9422ebd1bc952fcdcf350bd3ca975b0acb6d6ff851e1687f4",
+  "latency_ms": 9521,
+  "tokens_in": 630,
+  "tokens_out": 871,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:36:06"
+ }
+}

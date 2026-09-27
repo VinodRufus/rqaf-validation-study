@@ -1,0 +1,67 @@
+{
+ "report_id": "A-043",
+ "type": "measure_summary",
+ "text": "The source records include measure results for hospital-acquired pressure injury rate and medication reconciliation completion at discharge. No benchmark, target, stratification, prior-period result, or explanatory note is included in the supplied records; therefore, this summary is limited to the reported measure fields.\n\nFor measure HAPI-02, \u201cHospital-acquired pressure injury rate,\u201d the reported period is 2026-Q2 and the unit is percent. The numerator is 41, the denominator is 210, and exclusions are 15. The reported rate is 21.03 percent. Event dates associated with this record are 2026-01-24, 2026-07-04, 2026-07-19, 2026-09-18, and 2026-11-09.\n\nFor measure MED-REC, \u201cMedication reconciliation completion at discharge,\u201d the reported period is 2026-Q1 and the unit is percent. The numerator is 66, the denominator is 265, and exclusions are 2. The reported rate is 25.1 percent. Event dates associated with this record are 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01.\n\nBoth measure records provide the core reporting elements needed for a basic quality summary: measure identifier, measure name, reporting period, numerator, denominator, exclusions, reported rate, unit, and associated event dates. The records do not include service line, facility, patient population, case-mix information, data collection method, validation status, improvement actions, or documented reasons for exclusions. As a result, no conclusions are drawn here about performance drivers, statistical significance, trend direction, preventability, compliance gaps, or comparison to external standards.",
+ "source": [
+  {
+   "measure_id": "HAPI-02",
+   "name": "Hospital-acquired pressure injury rate",
+   "unit": "percent",
+   "period": "2026-Q2",
+   "numerator": 41,
+   "denominator": 210,
+   "exclusions": 15,
+   "rate": 21.03,
+   "event_dates": [
+    "2026-01-24",
+    "2026-07-04",
+    "2026-07-19",
+    "2026-09-18",
+    "2026-11-09"
+   ]
+  },
+  {
+   "measure_id": "MED-REC",
+   "name": "Medication reconciliation completion at discharge",
+   "unit": "percent",
+   "period": "2026-Q1",
+   "numerator": 66,
+   "denominator": 265,
+   "exclusions": 2,
+   "rate": 25.1,
+   "event_dates": [
+    "2026-02-09",
+    "2026-05-02",
+    "2026-06-13",
+    "2026-08-15",
+    "2026-09-01"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "ref_id": "F20",
+   "is_real": false,
+   "citation": "R. Deshmukh et al., \"Infection control dashboards: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 18, pp. 284-877, 2021, doi: 10.9999/synth.418334.",
+   "topic": "sepsis surveillance"
+  },
+  {
+   "ref_id": "F32",
+   "is_real": false,
+   "citation": "H. Bergstrom et al., \"Nurse staffing analytics: a multicenter study,\" Journal of Synthetic Health Informatics, vol. 9, pp. 212-752, 2024, doi: 10.9999/synth.680136.",
+   "topic": "quality measure automation"
+  }
+ ],
+ "gen_meta": {
+  "text": "The source records include measure results for hospital-acquired pressure injury rate and medication reconciliation completion at discharge. No benchmark, target, stratification, prior-period result, or explanatory note is included in the supplied records; therefore, this summary is limited to the reported measure fields.\n\nFor measure HAPI-02, \u201cHospital-acquired pressure injury rate,\u201d the reported period is 2026-Q2 and the unit is percent. The numerator is 41, the denominator is 210, and exclusions are 15. The reported rate is 21.03 percent. Event dates associated with this record are 2026-01-24, 2026-07-04, 2026-07-19, 2026-09-18, and 2026-11-09.\n\nFor measure MED-REC, \u201cMedication reconciliation completion at discharge,\u201d the reported period is 2026-Q1 and the unit is percent. The numerator is 66, the denominator is 265, and exclusions are 2. The reported rate is 25.1 percent. Event dates associated with this record are 2026-02-09, 2026-05-02, 2026-06-13, 2026-08-15, and 2026-09-01.\n\nBoth measure records provide the core reporting elements needed for a basic quality summary: measure identifier, measure name, reporting period, numerator, denominator, exclusions, reported rate, unit, and associated event dates. The records do not include service line, facility, patient population, case-mix information, data collection method, validation status, improvement actions, or documented reasons for exclusions. As a result, no conclusions are drawn here about performance drivers, statistical significance, trend direction, preventability, compliance gaps, or comparison to external standards.",
+  "model_id": "openai:gpt-5.5-2026-04-23",
+  "model_version": "gpt-5.5-2026-04-23 [temperature rejected by model; provider default used]",
+  "prompt_sha256": "9f363df6b53e4cff357f6c0353c7495f26873445c3439327896d6eb298abeeaa",
+  "latency_ms": 8603,
+  "tokens_in": 486,
+  "tokens_out": 786,
+  "retries": 0,
+  "error": null,
+  "ts": "2026-09-27T13:33:42"
+ }
+}
