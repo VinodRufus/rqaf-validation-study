@@ -1,0 +1,8 @@
+gold,approve,reject,review
+approve,13,16,4
+reject,0,51,6
+review,0,27,3
+
+accuracy,0.5583333333333333
+review_load,0.10833333333333334
+clean_over_flag_rate,0.6060606060606061
