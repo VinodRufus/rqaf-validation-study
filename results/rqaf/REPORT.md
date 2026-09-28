@@ -1,9 +1,10 @@
 # Study Report: A Robust Quality Assurance Framework for Validating Generative AI Outputs in Healthcare Quality Reporting
 
-Generated 2026-09-27 20:19 from commit `0840890`.
+Generated 2026-09-27 20:53 from commit `0879fa1`.
 Tags: gold-rqaf-v1
 prereg-peds_abstraction-v1
 prereg-rqaf-v1
+results-rqaf-v1
 
 ## Pre-registered design
 ```yaml
@@ -41,6 +42,18 @@ stats: {paired_bootstrap_resamples: 10000, pairwise_test: mcnemar, multiple_comp
   - none recorded
 
 ## Results
+### auc_ci.csv
+| auc | auc_lo | auc_hi | n | n_critical |
+| --- | --- | --- | --- | --- |
+| 0.893 | 0.821 | 0.955 | 120 | 62 |
+
+### dispo_tests.csv
+| system | accuracy | acc_lo | acc_hi | mcnemar_b | mcnemar_c | p_raw | p_holm |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| rqaf | 0.650 | 0.567 | 0.733 |  |  |  |  |
+| llm_self_check | 0.558 | 0.467 | 0.642 | 21.000 | 10.000 | 0.071 | 0.142 |
+| single_pass_judge | 0.558 | 0.475 | 0.650 | 27.000 | 16.000 | 0.126 | 0.142 |
+
 ### llm_self_check_detection.csv
 | error_type | tp | fp | fn | precision | recall | f1 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -147,6 +160,31 @@ stats: {paired_bootstrap_resamples: 10000, pairwise_test: mcnemar, multiple_comp
 | accuracy | 0.558 |  |  |
 | review_load | 0.108 |  |  |
 | clean_over_flag_rate | 0.606 |  |  |
+
+### tableVI_detection_ci.csv
+| system | error_type | tp | fp | fn | precision | precision_lo | precision_hi | recall | recall_lo | recall_hi | f1 | f1_lo | f1_hi |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| rqaf | hallucinated_claim | 31 | 31 | 12 | 0.500 | 0.373 | 0.623 | 0.721 | 0.578 | 0.848 | 0.590 | 0.468 | 0.695 |
+| rqaf | contradicted_claim | 9 | 40 | 2 | 0.184 | 0.082 | 0.300 | 0.818 | 0.556 | 1.000 | 0.300 | 0.145 | 0.448 |
+| rqaf | omitted_required_fact | 10 | 86 | 1 | 0.104 | 0.045 | 0.170 | 0.909 | 0.700 | 1.000 | 0.187 | 0.085 | 0.288 |
+| rqaf | invalid_citation | 15 | 0 | 0 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
+| rqaf | unsupported_citation | 24 | 3 | 15 | 0.889 | 0.759 | 1.000 | 0.615 | 0.459 | 0.767 | 0.727 | 0.590 | 0.838 |
+| rqaf | privacy_leak | 37 | 0 | 0 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
+| rqaf | prompt_injection_artifact | 26 | 0 | 0 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
+| llm_self_check | hallucinated_claim | 43 | 34 | 0 | 0.558 | 0.447 | 0.667 | 1.000 | 1.000 | 1.000 | 0.717 | 0.618 | 0.800 |
+| llm_self_check | contradicted_claim | 10 | 5 | 1 | 0.667 | 0.400 | 0.909 | 0.909 | 0.700 | 1.000 | 0.769 | 0.538 | 0.929 |
+| llm_self_check | omitted_required_fact | 7 | 58 | 4 | 0.108 | 0.034 | 0.190 | 0.636 | 0.333 | 0.917 | 0.184 | 0.062 | 0.304 |
+| llm_self_check | invalid_citation | 15 | 0 | 0 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
+| llm_self_check | unsupported_citation | 27 | 0 | 12 | 1.000 | 1.000 | 1.000 | 0.692 | 0.543 | 0.833 | 0.818 | 0.704 | 0.909 |
+| llm_self_check | privacy_leak | 37 | 0 | 0 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
+| llm_self_check | prompt_injection_artifact | 26 | 0 | 0 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
+| single_pass_judge | hallucinated_claim | 38 | 30 | 5 | 0.559 | 0.440 | 0.676 | 0.884 | 0.778 | 0.974 | 0.685 | 0.579 | 0.778 |
+| single_pass_judge | contradicted_claim | 9 | 2 | 2 | 0.818 | 0.556 | 1.000 | 0.818 | 0.556 | 1.000 | 0.818 | 0.600 | 0.966 |
+| single_pass_judge | omitted_required_fact | 6 | 44 | 5 | 0.120 | 0.038 | 0.216 | 0.545 | 0.222 | 0.857 | 0.197 | 0.067 | 0.328 |
+| single_pass_judge | invalid_citation | 13 | 6 | 2 | 0.684 | 0.462 | 0.889 | 0.867 | 0.667 | 1.000 | 0.765 | 0.571 | 0.903 |
+| single_pass_judge | unsupported_citation | 29 | 20 | 10 | 0.592 | 0.451 | 0.729 | 0.744 | 0.600 | 0.875 | 0.659 | 0.531 | 0.765 |
+| single_pass_judge | privacy_leak | 33 | 0 | 4 | 1.000 | 1.000 | 1.000 | 0.892 | 0.778 | 0.976 | 0.943 | 0.875 | 0.988 |
+| single_pass_judge | prompt_injection_artifact | 25 | 0 | 1 | 1.000 | 1.000 | 1.000 | 0.962 | 0.870 | 1.000 | 0.980 | 0.930 | 1.000 |
 
 ## Figures
 ![fig_roc.png](results/rqaf/figures/fig_roc.png)
