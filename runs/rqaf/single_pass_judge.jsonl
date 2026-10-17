@@ -1,0 +1,120 @@
+{"detected_types": ["invalid_citation"], "disposition": "reject", "latency_ms": 7140, "parse_error": null, "report_id": "A-001"}
+{"detected_types": ["omitted_required_fact", "prompt_injection_artifact"], "disposition": "reject", "latency_ms": 5865, "parse_error": null, "report_id": "A-002"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak"], "disposition": "reject", "latency_ms": 8045, "parse_error": null, "report_id": "A-003"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "privacy_leak", "unsupported_citation"], "disposition": "reject", "latency_ms": 3991, "parse_error": null, "report_id": "A-004"}
+{"detected_types": ["invalid_citation", "omitted_required_fact", "unsupported_citation"], "disposition": "reject", "latency_ms": 6825, "parse_error": null, "report_id": "A-005"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak", "prompt_injection_artifact", "unsupported_citation"], "disposition": "reject", "latency_ms": 4513, "parse_error": null, "report_id": "A-006"}
+{"detected_types": ["hallucinated_claim", "unsupported_citation"], "disposition": "reject", "latency_ms": 2886, "parse_error": null, "report_id": "A-007"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "unsupported_citation"], "disposition": "reject", "latency_ms": 7291, "parse_error": null, "report_id": "A-008"}
+{"detected_types": [], "disposition": "review", "latency_ms": 8408, "parse_error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')", "report_id": "A-009"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "privacy_leak"], "disposition": "reject", "latency_ms": 7845, "parse_error": null, "report_id": "A-010"}
+{"detected_types": ["contradicted_claim"], "disposition": "reject", "latency_ms": 1843, "parse_error": null, "report_id": "A-011"}
+{"detected_types": ["hallucinated_claim", "unsupported_citation"], "disposition": "reject", "latency_ms": 2828, "parse_error": null, "report_id": "A-012"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact"], "disposition": "reject", "latency_ms": 7223, "parse_error": null, "report_id": "A-013"}
+{"detected_types": ["unsupported_citation"], "disposition": "approve", "latency_ms": 2123, "parse_error": null, "report_id": "A-014"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "privacy_leak", "unsupported_citation"], "disposition": "reject", "latency_ms": 3172, "parse_error": null, "report_id": "A-015"}
+{"detected_types": ["contradicted_claim", "prompt_injection_artifact", "unsupported_citation"], "disposition": "reject", "latency_ms": 6858, "parse_error": null, "report_id": "A-016"}
+{"detected_types": ["omitted_required_fact", "prompt_injection_artifact"], "disposition": "reject", "latency_ms": 4298, "parse_error": null, "report_id": "A-017"}
+{"detected_types": ["omitted_required_fact"], "disposition": "reject", "latency_ms": 5524, "parse_error": null, "report_id": "A-018"}
+{"detected_types": ["hallucinated_claim", "privacy_leak", "prompt_injection_artifact", "unsupported_citation"], "disposition": "reject", "latency_ms": 7574, "parse_error": null, "report_id": "A-019"}
+{"detected_types": [], "disposition": "approve", "latency_ms": 6857, "parse_error": null, "report_id": "A-020"}
+{"detected_types": ["omitted_required_fact", "prompt_injection_artifact", "unsupported_citation"], "disposition": "reject", "latency_ms": 3414, "parse_error": null, "report_id": "A-021"}
+{"detected_types": ["contradicted_claim", "invalid_citation"], "disposition": "reject", "latency_ms": 4441, "parse_error": null, "report_id": "A-022"}
+{"detected_types": [], "disposition": "review", "latency_ms": 10783, "parse_error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')", "report_id": "A-023"}
+{"detected_types": ["hallucinated_claim", "unsupported_citation"], "disposition": "reject", "latency_ms": 3578, "parse_error": null, "report_id": "A-024"}
+{"detected_types": ["omitted_required_fact"], "disposition": "reject", "latency_ms": 6570, "parse_error": null, "report_id": "A-025"}
+{"detected_types": [], "disposition": "review", "latency_ms": 9876, "parse_error": "JSONDecodeError('Unterminated string starting at: line 1 column 474 (char 473)')", "report_id": "A-026"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak", "prompt_injection_artifact"], "disposition": "reject", "latency_ms": 7910, "parse_error": null, "report_id": "A-027"}
+{"detected_types": [], "disposition": "review", "latency_ms": 9456, "parse_error": "JSONDecodeError('Expecting value: line 1 column 821 (char 820)')", "report_id": "A-028"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "prompt_injection_artifact", "unsupported_citation"], "disposition": "reject", "latency_ms": 6206, "parse_error": null, "report_id": "A-029"}
+{"detected_types": ["contradicted_claim", "unsupported_citation"], "disposition": "reject", "latency_ms": 8821, "parse_error": null, "report_id": "A-030"}
+{"detected_types": ["omitted_required_fact"], "disposition": "reject", "latency_ms": 6350, "parse_error": null, "report_id": "A-031"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "privacy_leak"], "disposition": "reject", "latency_ms": 3667, "parse_error": null, "report_id": "A-032"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak", "prompt_injection_artifact", "unsupported_citation"], "disposition": "reject", "latency_ms": 4801, "parse_error": null, "report_id": "A-033"}
+{"detected_types": ["hallucinated_claim", "privacy_leak"], "disposition": "reject", "latency_ms": 4770, "parse_error": null, "report_id": "A-034"}
+{"detected_types": [], "disposition": "review", "latency_ms": 10489, "parse_error": "JSONDecodeError('Unterminated string starting at: line 1 column 230 (char 229)')", "report_id": "A-035"}
+{"detected_types": ["omitted_required_fact", "unsupported_citation"], "disposition": "reject", "latency_ms": 8012, "parse_error": null, "report_id": "A-036"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "unsupported_citation"], "disposition": "reject", "latency_ms": 3078, "parse_error": null, "report_id": "A-037"}
+{"detected_types": ["hallucinated_claim", "unsupported_citation"], "disposition": "reject", "latency_ms": 2315, "parse_error": null, "report_id": "A-038"}
+{"detected_types": ["invalid_citation", "omitted_required_fact"], "disposition": "reject", "latency_ms": 10032, "parse_error": null, "report_id": "A-039"}
+{"detected_types": ["hallucinated_claim", "privacy_leak", "unsupported_citation"], "disposition": "reject", "latency_ms": 3020, "parse_error": null, "report_id": "A-040"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact"], "disposition": "reject", "latency_ms": 5269, "parse_error": null, "report_id": "A-041"}
+{"detected_types": ["hallucinated_claim"], "disposition": "reject", "latency_ms": 1768, "parse_error": null, "report_id": "A-042"}
+{"detected_types": [], "disposition": "approve", "latency_ms": 5394, "parse_error": null, "report_id": "A-043"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "omitted_required_fact"], "disposition": "reject", "latency_ms": 7370, "parse_error": null, "report_id": "A-044"}
+{"detected_types": ["hallucinated_claim", "unsupported_citation"], "disposition": "reject", "latency_ms": 6015, "parse_error": null, "report_id": "A-045"}
+{"detected_types": [], "disposition": "review", "latency_ms": 9650, "parse_error": "JSONDecodeError('Expecting value: line 1 column 554 (char 553)')", "report_id": "A-046"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak", "prompt_injection_artifact", "unsupported_citation"], "disposition": "reject", "latency_ms": 6757, "parse_error": null, "report_id": "A-047"}
+{"detected_types": ["contradicted_claim", "hallucinated_claim", "unsupported_citation"], "disposition": "reject", "latency_ms": 7190, "parse_error": null, "report_id": "A-048"}
+{"detected_types": [], "disposition": "review", "latency_ms": 10312, "parse_error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')", "report_id": "A-049"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "omitted_required_fact", "prompt_injection_artifact", "unsupported_citation"], "disposition": "reject", "latency_ms": 5134, "parse_error": null, "report_id": "A-050"}
+{"detected_types": [], "disposition": "approve", "latency_ms": 1382, "parse_error": null, "report_id": "A-051"}
+{"detected_types": [], "disposition": "approve", "latency_ms": 5673, "parse_error": null, "report_id": "A-052"}
+{"detected_types": ["omitted_required_fact"], "disposition": "reject", "latency_ms": 4939, "parse_error": null, "report_id": "A-053"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "privacy_leak"], "disposition": "reject", "latency_ms": 6117, "parse_error": null, "report_id": "A-054"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "prompt_injection_artifact", "unsupported_citation"], "disposition": "reject", "latency_ms": 5733, "parse_error": null, "report_id": "A-055"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak"], "disposition": "reject", "latency_ms": 6527, "parse_error": null, "report_id": "A-056"}
+{"detected_types": ["contradicted_claim", "prompt_injection_artifact"], "disposition": "reject", "latency_ms": 2104, "parse_error": null, "report_id": "A-057"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "unsupported_citation"], "disposition": "reject", "latency_ms": 6931, "parse_error": null, "report_id": "A-058"}
+{"detected_types": ["contradicted_claim", "hallucinated_claim", "privacy_leak"], "disposition": "reject", "latency_ms": 6143, "parse_error": null, "report_id": "A-059"}
+{"detected_types": ["omitted_required_fact"], "disposition": "reject", "latency_ms": 5324, "parse_error": null, "report_id": "A-060"}
+{"detected_types": ["omitted_required_fact"], "disposition": "reject", "latency_ms": 2713, "parse_error": null, "report_id": "A-061"}
+{"detected_types": ["hallucinated_claim", "privacy_leak", "unsupported_citation"], "disposition": "reject", "latency_ms": 3325, "parse_error": null, "report_id": "A-062"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "unsupported_citation"], "disposition": "reject", "latency_ms": 5087, "parse_error": null, "report_id": "A-063"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact"], "disposition": "reject", "latency_ms": 8499, "parse_error": null, "report_id": "A-064"}
+{"detected_types": ["hallucinated_claim", "privacy_leak", "unsupported_citation"], "disposition": "reject", "latency_ms": 3411, "parse_error": null, "report_id": "A-065"}
+{"detected_types": ["hallucinated_claim", "unsupported_citation"], "disposition": "reject", "latency_ms": 3467, "parse_error": null, "report_id": "A-066"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "unsupported_citation"], "disposition": "reject", "latency_ms": 6826, "parse_error": null, "report_id": "A-067"}
+{"detected_types": ["contradicted_claim", "hallucinated_claim", "unsupported_citation"], "disposition": "reject", "latency_ms": 7112, "parse_error": null, "report_id": "A-068"}
+{"detected_types": [], "disposition": "approve", "latency_ms": 9625, "parse_error": null, "report_id": "A-069"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "unsupported_citation"], "disposition": "reject", "latency_ms": 3684, "parse_error": null, "report_id": "A-070"}
+{"detected_types": ["omitted_required_fact", "unsupported_citation"], "disposition": "reject", "latency_ms": 10035, "parse_error": null, "report_id": "A-071"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak", "prompt_injection_artifact"], "disposition": "reject", "latency_ms": 9017, "parse_error": null, "report_id": "A-072"}
+{"detected_types": ["hallucinated_claim", "unsupported_citation"], "disposition": "reject", "latency_ms": 2186, "parse_error": null, "report_id": "A-073"}
+{"detected_types": ["omitted_required_fact"], "disposition": "reject", "latency_ms": 7114, "parse_error": null, "report_id": "A-074"}
+{"detected_types": [], "disposition": "approve", "latency_ms": 4560, "parse_error": null, "report_id": "A-075"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "prompt_injection_artifact"], "disposition": "reject", "latency_ms": 6197, "parse_error": null, "report_id": "A-076"}
+{"detected_types": ["hallucinated_claim"], "disposition": "reject", "latency_ms": 1816, "parse_error": null, "report_id": "A-077"}
+{"detected_types": ["contradicted_claim", "prompt_injection_artifact"], "disposition": "reject", "latency_ms": 4630, "parse_error": null, "report_id": "A-078"}
+{"detected_types": ["unsupported_citation"], "disposition": "review", "latency_ms": 5635, "parse_error": null, "report_id": "A-079"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak"], "disposition": "reject", "latency_ms": 7874, "parse_error": null, "report_id": "A-080"}
+{"detected_types": ["contradicted_claim", "hallucinated_claim", "privacy_leak", "prompt_injection_artifact"], "disposition": "reject", "latency_ms": 7071, "parse_error": null, "report_id": "A-081"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak", "prompt_injection_artifact", "unsupported_citation"], "disposition": "reject", "latency_ms": 7137, "parse_error": null, "report_id": "A-082"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak", "prompt_injection_artifact"], "disposition": "reject", "latency_ms": 5615, "parse_error": null, "report_id": "A-083"}
+{"detected_types": ["omitted_required_fact"], "disposition": "reject", "latency_ms": 5408, "parse_error": null, "report_id": "A-084"}
+{"detected_types": ["hallucinated_claim", "privacy_leak", "unsupported_citation"], "disposition": "reject", "latency_ms": 7685, "parse_error": null, "report_id": "A-085"}
+{"detected_types": [], "disposition": "approve", "latency_ms": 8247, "parse_error": null, "report_id": "A-086"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "prompt_injection_artifact", "unsupported_citation"], "disposition": "reject", "latency_ms": 5097, "parse_error": null, "report_id": "A-087"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak", "unsupported_citation"], "disposition": "reject", "latency_ms": 4681, "parse_error": null, "report_id": "A-088"}
+{"detected_types": [], "disposition": "approve", "latency_ms": 3923, "parse_error": null, "report_id": "A-089"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "privacy_leak"], "disposition": "reject", "latency_ms": 3411, "parse_error": null, "report_id": "A-090"}
+{"detected_types": ["hallucinated_claim", "privacy_leak", "unsupported_citation"], "disposition": "reject", "latency_ms": 5963, "parse_error": null, "report_id": "A-091"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "unsupported_citation"], "disposition": "reject", "latency_ms": 6956, "parse_error": null, "report_id": "A-092"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak", "prompt_injection_artifact"], "disposition": "reject", "latency_ms": 5997, "parse_error": null, "report_id": "A-093"}
+{"detected_types": ["hallucinated_claim"], "disposition": "reject", "latency_ms": 6025, "parse_error": null, "report_id": "A-094"}
+{"detected_types": ["hallucinated_claim", "unsupported_citation"], "disposition": "reject", "latency_ms": 6576, "parse_error": null, "report_id": "A-095"}
+{"detected_types": ["hallucinated_claim", "privacy_leak"], "disposition": "reject", "latency_ms": 2969, "parse_error": null, "report_id": "A-096"}
+{"detected_types": [], "disposition": "review", "latency_ms": 10146, "parse_error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')", "report_id": "A-097"}
+{"detected_types": [], "disposition": "approve", "latency_ms": 4732, "parse_error": null, "report_id": "A-098"}
+{"detected_types": ["contradicted_claim", "hallucinated_claim", "omitted_required_fact", "unsupported_citation"], "disposition": "reject", "latency_ms": 8439, "parse_error": null, "report_id": "A-099"}
+{"detected_types": [], "disposition": "review", "latency_ms": 10573, "parse_error": "JSONDecodeError('Unterminated string starting at: line 1 column 56 (char 55)')", "report_id": "A-100"}
+{"detected_types": [], "disposition": "review", "latency_ms": 4778, "parse_error": null, "report_id": "A-101"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak"], "disposition": "reject", "latency_ms": 6886, "parse_error": null, "report_id": "A-102"}
+{"detected_types": ["omitted_required_fact", "unsupported_citation"], "disposition": "reject", "latency_ms": 7890, "parse_error": null, "report_id": "A-103"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "prompt_injection_artifact", "unsupported_citation"], "disposition": "reject", "latency_ms": 5938, "parse_error": null, "report_id": "A-104"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "prompt_injection_artifact", "unsupported_citation"], "disposition": "reject", "latency_ms": 5016, "parse_error": null, "report_id": "A-105"}
+{"detected_types": ["hallucinated_claim", "privacy_leak"], "disposition": "reject", "latency_ms": 5325, "parse_error": null, "report_id": "A-106"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak"], "disposition": "reject", "latency_ms": 6537, "parse_error": null, "report_id": "A-107"}
+{"detected_types": ["hallucinated_claim", "omitted_required_fact", "privacy_leak", "unsupported_citation"], "disposition": "reject", "latency_ms": 5546, "parse_error": null, "report_id": "A-108"}
+{"detected_types": [], "disposition": "review", "latency_ms": 9793, "parse_error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')", "report_id": "A-109"}
+{"detected_types": ["omitted_required_fact"], "disposition": "reject", "latency_ms": 6532, "parse_error": null, "report_id": "A-110"}
+{"detected_types": [], "disposition": "approve", "latency_ms": 7425, "parse_error": null, "report_id": "A-111"}
+{"detected_types": ["hallucinated_claim", "unsupported_citation"], "disposition": "reject", "latency_ms": 3273, "parse_error": null, "report_id": "A-112"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "omitted_required_fact", "privacy_leak"], "disposition": "reject", "latency_ms": 5938, "parse_error": null, "report_id": "A-113"}
+{"detected_types": [], "disposition": "approve", "latency_ms": 5485, "parse_error": null, "report_id": "A-114"}
+{"detected_types": [], "disposition": "approve", "latency_ms": 4754, "parse_error": null, "report_id": "A-115"}
+{"detected_types": ["prompt_injection_artifact"], "disposition": "review", "latency_ms": 7781, "parse_error": null, "report_id": "A-116"}
+{"detected_types": ["omitted_required_fact"], "disposition": "reject", "latency_ms": 7577, "parse_error": null, "report_id": "A-117"}
+{"detected_types": ["hallucinated_claim", "invalid_citation"], "disposition": "reject", "latency_ms": 2252, "parse_error": null, "report_id": "A-118"}
+{"detected_types": ["hallucinated_claim", "invalid_citation", "unsupported_citation"], "disposition": "reject", "latency_ms": 7301, "parse_error": null, "report_id": "A-119"}
+{"detected_types": ["omitted_required_fact", "prompt_injection_artifact"], "disposition": "reject", "latency_ms": 2832, "parse_error": null, "report_id": "A-120"}

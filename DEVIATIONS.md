@@ -24,3 +24,9 @@ cases."), which that study's detectors are required to find; the number is ficti
 identical in every injected record. The RQAF data, run, and result paths are added to the
 identifier-pattern exemption that already covered the PHI-leakage study. The employer and
 vendor blocklist remains enforced on every path. No data, run log, or result was changed.
+
+## 2026-10-17 RQAF run logs committed to version control (no result change)
+The RQAF run logs under runs/rqaf were present locally at the results freeze (results-rqaf-v1,
+2026-09-27) and were the inputs to results/rqaf, but runs/ is git-ignored and they had not been
+force-added. They are committed now, unchanged, so that the archival release promised in the
+paper can include them. No prompt, configuration, output, or result was altered.
