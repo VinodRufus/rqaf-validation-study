@@ -42,8 +42,11 @@ python tools/rqaf_secondary_stats.py       # class-level metrics, exact binomial
 python src/rqaf/report.py                  # Table VI and the ROC figure
 ```
 
-All CSV results regenerate byte-identical from the run logs. `figures/fig_roc.png` re-renders with
-the same content; the PNG bytes differ across matplotlib versions. Re-running
+Every CSV result regenerates from the run logs. On Linux (including the GitHub Actions check) the
+files are byte-identical. On macOS, `detection_exact_ci.csv` differs in the last floating-point
+digit of some exact binomial bounds (largest difference 4.4e-16, i.e. identical to 15 significant
+figures); every value quoted in the paper is unchanged. `figures/fig_roc.png` re-renders with the
+same content; the PNG bytes differ across matplotlib versions. Re-running
 `src/rqaf/evaluate.py --system ...` needs API keys in `.env` (see `.env.example`) and produces
 new model outputs; the paper's numbers come from the logged runs in `runs/`.
 
