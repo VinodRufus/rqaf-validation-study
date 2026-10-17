@@ -1,0 +1,8 @@
+The synthetic measure database, reports, injected corpus and injection gold (data/), the run logs (runs/) and the
+tables and figures (results/) in this repository are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Attribution: Vinod Rufus Motani and Bharathi Sesha Sai Varanasi, A Robust Quality Assurance Framework for Validating
+Generative AI Outputs in Healthcare Quality Reporting.
+
+All reports are synthetic. No real patient data, protected health information or institutional material was used.

@@ -30,3 +30,19 @@ The RQAF run logs under runs/rqaf were present locally at the results freeze (re
 2026-09-27) and were the inputs to results/rqaf, but runs/ is git-ignored and they had not been
 force-added. They are committed now, unchanged, so that the archival release promised in the
 paper can include them. No prompt, configuration, output, or result was altered.
+
+## 2026-10-17 Public release cut from the working repository (no content or result change)
+This repository is a filtered mirror of the authors' working repository containing only the
+RQAF study paths (`src/common`, `src/rqaf`, `data/rqaf`, `runs/rqaf`, `results/rqaf`, its
+configuration, prompts, tools and tests). Commit dates and messages are preserved; author
+metadata uses the GitHub no-reply address; the employer/vendor blocklist in `src/common/audit.py`
+is published as SHA-256 digests; one test fixture string was replaced by a synthetic term.
+The commit id printed in
+`results/rqaf/REPORT.md` refers to the working repository at the results tag.
+
+Scope note on the run logs: the paper states that raw model outputs are retained under version
+control. The generated reports (`data/rqaf/reports/`) are retained verbatim; the evaluation
+script recorded, per report and system, the parsed error types, disposition, risk score, latency
+and parse outcome, but not the raw text of each claim-judge response or a per-call model-version
+string. No number in the paper depends on those raw texts; all reported statistics regenerate
+from the committed logs.

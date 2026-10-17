@@ -2,8 +2,7 @@
 .venv/
 __pycache__/
 *.pyc
-runs/
-results/
 .DS_Store
 API Keys*
 .pytest_cache/
+# runs/ and results/ are tracked in this release (they are the frozen study record)
