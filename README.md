@@ -1,5 +1,7 @@
 # RQAF Validation Study
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23443782.svg)](https://doi.org/10.5281/zenodo.23443782)
+
 Code, synthetic data, run logs, and results for the paper
 
 > **A Robust Quality Assurance Framework for Validating Generative AI Outputs in Healthcare Quality Reporting**
@@ -68,3 +70,7 @@ The AUC (0.893) is unaffected.
 ## Licences
 
 Code: MIT (`LICENSE`). Data, run logs and results: CC BY 4.0 (`LICENSE-DATA`). Cite with `CITATION.cff`.
+
+## Archival release
+
+This repository is archived on Zenodo. Concept DOI (always resolves to the latest version): https://doi.org/10.5281/zenodo.23443782. Version DOI for v1.0.1: https://doi.org/10.5281/zenodo.23443783.

@@ -10,3 +10,5 @@ authors:
 repository-code: "https://github.com/VinodRufus/rqaf-validation-study"
 license: MIT
 type: software
+doi: "10.5281/zenodo.23443782"
+version: "1.0.1"
